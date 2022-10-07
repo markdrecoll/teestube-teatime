@@ -1,11 +1,12 @@
 import Alert from 'react-bootstrap/Alert';
 import Menu from '../components/Menu';
+import ImageSlideShow from '../components/ImageSlideShow';
 
 const Home = () => {
     return (
       <div>
         <Menu />
-        <Alert variant="success">home</Alert>
+        <ImageSlideShow />
       </div>
     );
   };
