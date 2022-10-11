@@ -7,7 +7,7 @@ function Menu() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
             <img
               alt=""
               src={process.env.PUBLIC_URL + "/assets/images/logo_original.png"}
