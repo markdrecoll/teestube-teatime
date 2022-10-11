@@ -7,13 +7,22 @@ function Menu() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Teestube-Teatime</Navbar.Brand>
+        <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src={process.env.PUBLIC_URL + "/assets/images/logo_original.png"}
+              width="125"
+              height="64"
+              className="d-inline-block align-top"
+            />{' '}
+            Teestube-Teatime
+            </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            
+          </Nav>
+          <Nav>
             <NavDropdown title="Tea Menu" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Black Tea</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -24,12 +33,10 @@ function Menu() {
                 Chai Tea
               </NavDropdown.Item>
             </NavDropdown>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
