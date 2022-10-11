@@ -24,7 +24,7 @@ function Menu() {
           </Nav>
           <Nav>
             <NavDropdown title="Tea Menu" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Black Tea</NavDropdown.Item>
+              <NavDropdown.Item href="/blacktea">Black Tea</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Green Tea
               </NavDropdown.Item>
