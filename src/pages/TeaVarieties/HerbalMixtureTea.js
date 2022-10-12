@@ -1,12 +1,12 @@
 import Menu from '../../components/Menu';
 
-const FruitTea = () => {
+const HerbalMixtureTea = () => {
     return (
       <div>
         <Menu />
-        <h1>FruitTea</h1>
+        <h1>HerbalMixtureTea</h1>
       </div>
     );
   };
     
-  export default FruitTea;
+  export default HerbalMixtureTea;
