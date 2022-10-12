@@ -41,6 +41,7 @@
   width:900px;
   height:500px;
   margin: auto;
+  font-weight: bold;
 }
 
 @media (max-width: 900px) {
