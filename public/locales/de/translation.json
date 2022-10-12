@@ -8,7 +8,9 @@
     "German": "Deutsch",
     "Green Tea": "GrünTee",
     "Language": "Sprache",
+    "Sample Text":"Beispieltext",
     "Spice & Chai Tea": "Gewürz & Chai Tee",
     "Tea Menu": "Tee Menü",
-    "white tea": "weißtee"
+    "white tea": "weißtee",
+    "You could have additional sample text here":"Sie könnten hier zusätzlichen Beispieltext haben"
 }

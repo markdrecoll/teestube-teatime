@@ -1,6 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import Carousel from 'react-bootstrap/Carousel';
 
 function ImageSlideShow() {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Carousel fade>
       <Carousel.Item>
@@ -10,8 +14,8 @@ function ImageSlideShow() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Sample Text</h3>
-          <p>You could have additional sample text here.</p>
+          <h3>{t("Sample Text")}</h3>
+          <p>{t("You could have additional sample text here")}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,8 +26,8 @@ function ImageSlideShow() {
         />
 
         <Carousel.Caption>
-          <h3>Sample Text</h3>
-          <p>You could have additional sample text here.</p>
+          <h3>{t("Sample Text")}</h3>
+          <p>{t("You could have additional sample text here")}</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
