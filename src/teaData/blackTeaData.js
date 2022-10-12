@@ -62,393 +62,393 @@ const blackTeaData = [
         type: 'Indien Assam',
         description: 'Vorzüglicher Assam Tee, mit vielen Goldspitzen'
     },
-    {
-        key: '8',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '9',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '10',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '11',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '12',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '13',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '14',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '15',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '16',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '17',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '18',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '19',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '20',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '21',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '22',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '23',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '24',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '25',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '26',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '27',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '28',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '29',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '30',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '31',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '32',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '33',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '34',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '35',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '36',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '37',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '38',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '39',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '40',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '41',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '42',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '43',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '44',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '45',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '46',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '47',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '48',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '49',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },
-    {
-        key: '50',
-        name: 'aaa',
-        price_50g: 123,
-        price_100g: 123,
-        price_250g: 123,
-        type: 'ccc',
-        description: 'ddd'
-    },    
+    // {
+    //     key: '8',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '9',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '10',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '11',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '12',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '13',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '14',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '15',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '16',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '17',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '18',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '19',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '20',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '21',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '22',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '23',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '24',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '25',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '26',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '27',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '28',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '29',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '30',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '31',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '32',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '33',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '34',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '35',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '36',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '37',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '38',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '39',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '40',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '41',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '42',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '43',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '44',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '45',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '46',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '47',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '48',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '49',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },
+    // {
+    //     key: '50',
+    //     name: 'aaa',
+    //     price_50g: 123,
+    //     price_100g: 123,
+    //     price_250g: 123,
+    //     type: 'ccc',
+    //     description: 'ddd'
+    // },    
 ]
 
 export default blackTeaData;

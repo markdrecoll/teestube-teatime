@@ -1,49 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import 'antd/dist/antd.css';
+// import logo from './logo.svg';
+import { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import './App.css';
+
 import Home from './pages/Home';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import BlackTea from './pages/TeaVarieties/BlackTea';
-// import i18n from "i18next";
-// import { useTranslation, initReactI18next } from "react-i18next";
-
-// i18n
-//   .use(initReactI18next) // passes i18n down to react-i18next
-//   .init({
-//     lng: "en", // if you're using a language detector, do not define the lng option
-//     fallbackLng: "en",
-
-//     interpolation: {
-//       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
-//     },
-//     // the translations
-//     // (tip move them in a JSON file and import them,
-//     // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
-//     resources: {
-//       en: {
-//         translation: {
-//           "language":"English"
-//         }
-//       },
-//       de: {
-//         translation: {
-//           "language": "German"
-//         }
-//       }
-//     },
-    
-//   });
-
-  const lngs = {
-    en: { nativeName: 'English' },
-    de: { nativeName: 'Deutsch' }
-  };
+import GreenTea from './pages/TeaVarieties/GreenTea';
+import FruitTea from './pages/TeaVarieties/FruitTea';
+import SpiceAndChaiTea from './pages/TeaVarieties/SpiceAndChaiTea';
 
 function App() {
-  // const { t, i18n } = useTranslation();
   return (
     <Router>
       <Routes>
@@ -51,10 +21,20 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blacktea" element={<BlackTea />} />
+        <Route path="/black_tea" element={<BlackTea />} />
+        <Route path="/green_tea" element={<GreenTea />} />
+        <Route path="/fruit_tea" element={<FruitTea />} />
+        <Route path="/spice_and_chai_tea" element={<SpiceAndChaiTea />} />
       </Routes>
     </Router>
   );
 }
 
-export default App;
+// here app catches the suspense from page in case translations are not yet loaded
+export default function WrappedApp() {
+  return (
+    <Suspense fallback="...is loading">
+      <App />
+    </Suspense>
+  );
+}
