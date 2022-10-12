@@ -26,7 +26,7 @@ function Menu() {
 					<Nav className="me-auto">
 					</Nav>
 					<Nav>
-						<NavDropdown title="Tea Menu">
+						<NavDropdown title={t("Tea Menu")}>
 							<NavDropdown.Item href="/black_tea">{t("Black Tea")}</NavDropdown.Item>
 							<NavDropdown.Item href="/green_tea">{t("Green Tea")}</NavDropdown.Item>
 							<NavDropdown.Item href="/fruit_tea">{t("Fruit Tea")}</NavDropdown.Item>

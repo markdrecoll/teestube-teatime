@@ -137,8 +137,10 @@ const BlackTea = () => {
         <div>
             <Menu />
             {/* <h1>{t("Language")}test</h1> */}
+            <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12">
 
-            <Table dataSource={blackTeaData} columns={columns} rowKey={blackTeaData.key} pagination={{ pageSize: 10 }} size="small" />
+            <Table dataSource={blackTeaData} columns={columns} rowKey={blackTeaData.key} pagination={{ pageSize: 20 }} size="small" bordered="true" />
+            </div>
         </div>
     );
 };
