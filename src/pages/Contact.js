@@ -12,8 +12,8 @@ const Contact = () => {
   return (
     <div>
       <Menu />
-      <div className="row justify-content-md-center">
-        <div className="col-lg-4 mt-4">
+      <div className="row justify-content-md-center m-4">
+        <div className="col-lg-4 col-md-5 col-12">
           <Card style={{ height: '32rem' }}>
             <Card.Body>
               <Card.Title>Teestube</Card.Title>
@@ -31,37 +31,37 @@ const Contact = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Monday</td>
+                    <td>{t("Monday")}</td>
                     <td>10:00 AM</td>
                     <td>6:30 PM</td>
                   </tr>
                   <tr>
-                    <td>Tuesday</td>
+                    <td>{t("Tuesday")}</td>
                     <td>10:00 AM</td>
                     <td>6:30 PM</td>
                   </tr>
                   <tr>
-                    <td>Wednesday</td>
+                    <td>{t("Wednesday")}</td>
                     <td>1:00 PM</td>
                     <td>6:30 PM</td>
                   </tr>
                   <tr>
-                    <td>Thursday</td>
+                    <td>{t("Thursday")}</td>
                     <td>10:00 AM</td>
                     <td>6:30 PM</td>
                   </tr>
                   <tr>
-                    <td>Friday</td>
+                    <td>{t("Friday")}</td>
                     <td>10:00 AM</td>
                     <td>6:30 PM</td>
                   </tr>
                   <tr>
-                    <td>Saturday</td>
+                    <td>{t("Saturday")}</td>
                     <td>10:00 AM</td>
                     <td>4:00 PM</td>
                   </tr>
                   <tr>
-                    <td>Sunday</td>
+                    <td>{t("Sunday")}</td>
                     <td colSpan={2}>{t("Closed")}</td>
                   </tr>
                 </tbody>
@@ -69,7 +69,7 @@ const Contact = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-lg-4 mt-4">
+        <div className="col-lg-4 col-md-5 col-12">
           <Card style={{ height: '32rem' }}>
             <Card.Body>
               <MapDisplay />
