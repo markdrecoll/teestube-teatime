@@ -1,13 +1,13 @@
+import { t } from 'i18next';
 import Menu from '../components/Menu';
-import MapDisplay from '../components/MapDisplay'
 
 const About = () => {
     return (
       <div>
         <Menu />
-        <h1>about</h1>
-        <br />
-        <MapDisplay />
+        <h1>{t("About Us")}</h1>
+        <h2>Tee-Freunde,</h2>
+        <p>Herzlich willkommen auf den Seiten des altesten Tee-Fac</p>
       </div>
     );
   };
