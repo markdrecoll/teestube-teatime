@@ -24,7 +24,6 @@ function ImageSlideShow() {
           src={process.env.PUBLIC_URL + "/assets/images/banner2.jpg"}
           alt="Second slide"
         />
-
         <Carousel.Caption>
           <h3>{t("Sample Text")}</h3>
           <p>{t("You could have additional sample text here")}</p>
