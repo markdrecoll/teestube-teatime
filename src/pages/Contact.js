@@ -13,7 +13,7 @@ const Contact = () => {
     <div>
       <Menu />
       <div className="row justify-content-md-center m-4">
-        <div className="col-lg-4 col-md-5 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <Card style={{ height: '32rem' }}>
             <Card.Body>
               <Card.Title>Teestube</Card.Title>
@@ -69,7 +69,7 @@ const Contact = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-lg-4 col-md-5 col-12">
+        <div className="col-lg-4 col-md-6 col-12">
           <Card style={{ height: '32rem' }}>
             <Card.Body>
               <MapDisplay />
