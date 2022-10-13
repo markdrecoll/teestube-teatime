@@ -42,8 +42,8 @@ function Menu() {
 							</NavDropdown>
 							:
 							<NavDropdown title="Language">
-								<NavDropdown.Item onClick={() => i18n.changeLanguage('en')}>English</NavDropdown.Item>
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('de')}>German</NavDropdown.Item>
+								<NavDropdown.Item onClick={() => i18n.changeLanguage('en')}>English</NavDropdown.Item>
 							</NavDropdown>
 						}
 					</Nav>
