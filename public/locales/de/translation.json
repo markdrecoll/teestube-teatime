@@ -1,17 +1,34 @@
 {
     "About Us": "Über Uns",
+
     "Black Tea": "Schwarztee",
+
     "Closed": "Geschlossen",
     "Contact": "Kontakt",
+
     "English": "Englisch",
+    
     "Fruit Tea": "Früchte-Tee",
+    "Friday": "Freitag",
+
     "Gallery": "Galerie",
     "German": "Deutsch",
     "Green Tea": "GrünTee",
+
     "Language": "Sprache",
+
+    "Monday": "Montag",
+
     "Sample Text":"Beispieltext",
+    "Saturday": "Samstag",
     "Spice & Chai Tea": "Gewürz & Chai Tee",
+
     "Tea Menu": "Tee Menü",
+    "Thursday": "Donnerstag",
+    "Tuesday": "Dienstag",
+
+    "Wednesday": "Mittwoch",
     "white tea": "weißtee",
+
     "You could have additional sample text here":"Sie könnten hier zusätzlichen Beispieltext haben"
 }
