@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
       <div>
-        <Menu />        
+        <Menu />
         <ImageSlideShow />
       </div>
     );

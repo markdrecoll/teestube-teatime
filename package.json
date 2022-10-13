@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.23.5",
     "bootstrap": "^5.2.2",
+    "dotenv": "^16.0.3",
+    "google-map-react": "^2.2.0",
     "i18next": "^21.10.0",
     "i18next-browser-languagedetector": "^6.1.8",
     "i18next-http-backend": "^1.4.4",

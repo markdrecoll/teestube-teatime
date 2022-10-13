@@ -99,8 +99,18 @@ const BlackTea = () => {
                 {
                     text: 'Indien Assam',
                     value: 'Indien Assam'
+                },
+                {
+                    text: 'Indien Darjeeling',
+                    value: 'Indien Darjeeling'
+                },
+                {
+                    text: 'Indien Himalaya',
+                    value: 'Indien Himalaya'
                 }
-            ]
+            ],
+            // onFilter: (value, record) => record.name.indexOf(value) === 0,
+            onFilter: (value, record) => record.name.includes(value),
         },
         {
             title: 'Tea Name',
@@ -140,6 +150,9 @@ const BlackTea = () => {
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12">
 
             <Table dataSource={blackTeaData} columns={columns} rowKey={blackTeaData.key} pagination={{ pageSize: 20 }} size="small" bordered="true" />
+
+            {/* missing items from black tea */}
+            {/* Darjeeling-Teeaktion, Schadstoffkontrolliert 500 gr 22,00 */}
             </div>
         </div>
     );
