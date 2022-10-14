@@ -22,3 +22,8 @@ menu translation
 
 More pictures
 picture of the store from the street for visibility
+
+have country code with phone number, do you still use fax, country code for english version only?
+
+proper documentation
+readme
