@@ -1,0 +1,24 @@
+Missing the following teas that did not fit the data model:
+Darjeeling-Teeaktion, Schadstoffkontrolliert 500 gr 22,00
+
+Things to do:
+figure out antd table change default text for reset and ascending etc
+Fix marker on google map
+routing translations
+money format
+money format internationalization
+
+Questions:
+Ask about highlighting on search
+Ask about table sorting, searching, filtering
+Language change button on footer?
+Language change button changes?
+Purpose of first number on menus
+What category for other tea page names
+
+Title?
+Description of website
+menu translation
+
+More pictures
+picture of the store from the street for visibility

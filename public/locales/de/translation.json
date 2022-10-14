@@ -1,5 +1,11 @@
 {
+    "10:00 AM": "10:00",
+    "1:00 PM": "13:00",
+    "4:00 PM": "16:00",
+    "6:30 PM": "18:30",
+  
     "About Us": "Über Uns",
+    "Address": "Adresse",
 
     "Black Tea": "Schwarztee",
 
@@ -15,12 +21,19 @@
     "German": "Deutsch",
     "Green Tea": "GrünTee",
 
+    "Hours of Operation": "Öffnungszeiten",
+
     "Language": "Sprache",
 
     "Monday": "Montag",
 
+    "Phone": "Telefon",
+
+    "Reset": "Zurücksetzen",  
+
     "Sample Text":"Beispieltext",
     "Saturday": "Samstag",
+    "Search": "Suche",
     "Spice & Chai Tea": "Gewürz & Chai Tee",
     "Sunday": "Sonntag",
 
