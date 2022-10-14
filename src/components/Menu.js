@@ -35,17 +35,27 @@ function Menu() {
 						<Nav.Link href="/about">{t("About Us")}</Nav.Link>
 						<Nav.Link href="/gallery">{t("Gallery")}</Nav.Link>
 						<Nav.Link href="/contact">{t("Contact")}</Nav.Link>
-						{i18n.resolvedLanguage === 'de' ?
+						{i18n.resolvedLanguage === 'de' &&
 							<NavDropdown title="Sprache">
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('de')}>Deutsch</NavDropdown.Item>
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('en')}>Englisch</NavDropdown.Item>
+								{/* <NavDropdown.Item onClick={() => i18n.changeLanguage('fr')}>Französisch</NavDropdown.Item> */}
 							</NavDropdown>
-							:
+						}
+						{i18n.resolvedLanguage === 'en' &&
 							<NavDropdown title="Language">
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('de')}>German</NavDropdown.Item>
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('en')}>English</NavDropdown.Item>
+								{/* <NavDropdown.Item onClick={() => i18n.changeLanguage('fr')}>French</NavDropdown.Item> */}
 							</NavDropdown>
 						}
+						{/* {i18n.resolvedLanguage === "fr" &&
+							<NavDropdown title="Language">
+								<NavDropdown.Item onClick={() => i18n.changeLanguage('de')}>Allemand</NavDropdown.Item>
+								<NavDropdown.Item onClick={() => i18n.changeLanguage('en')}>Anglais</NavDropdown.Item>
+								<NavDropdown.Item onClick={() => i18n.changeLanguage('fr')}>Français</NavDropdown.Item>
+							</NavDropdown>
+						} */}
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
