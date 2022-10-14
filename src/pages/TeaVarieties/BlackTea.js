@@ -21,9 +21,10 @@ const BlackTea = () => {
         });
     };
 
-    const handleReset = clearFilters => {
+    const handleReset = (clearFilters, confirm) => {
         clearFilters();
         setSearchState({ searchText: '' });
+        confirm();
     };
 
     // adapted from antd table search, as well as stack overflow showing how to convert to functional https://stackoverflow.com/questions/69356379/how-to-do-column-level-search-in-ant-design-using-function-component
@@ -32,7 +33,7 @@ const BlackTea = () => {
             <div style={{ padding: 8 }}>
                 <Input
                     ref={searchInput}
-                    placeholder={`Search ${dataIndex}`}
+                    placeholder={t("Search") + " Name"}
                     value={selectedKeys[0]}
                     onChange={e => setSelectedKeys(e.target.value ? [e.target.value] : [])}
                     onPressEnter={() => handleSearch(selectedKeys, confirm, dataIndex)}
@@ -44,25 +45,12 @@ const BlackTea = () => {
                         onClick={() => handleSearch(selectedKeys, confirm, dataIndex)}
                         icon={<SearchOutlined />}
                         size="small"
-                        style={{ width: 90 }}
+                        style={{ width: 100 }}
                     >
-                        Search
+                        {t("Search")}
                     </Button>
-                    <Button onClick={() => handleReset(clearFilters)} size="small" style={{ width: 90 }}>
-                        Reset
-                    </Button>
-                    <Button
-                        type="link"
-                        size="small"
-                        onClick={() => {
-                            confirm({ closeDropdown: false });
-                            setSearchState({
-                                searchText: selectedKeys[0],
-                                searchedColumn: dataIndex,
-                            });
-                        }}
-                    >
-                        Filter
+                    <Button onClick={() => handleReset(clearFilters, confirm)} size="small" style={{ width: 100 }}>
+                        {t("Reset")}
                     </Button>
                 </Space>
             </div>
@@ -109,8 +97,7 @@ const BlackTea = () => {
                     value: 'Indien Himalaya'
                 }
             ],
-            // onFilter: (value, record) => record.name.indexOf(value) === 0,
-            onFilter: (value, record) => record.name.includes(value),
+            onFilter: (value, record) => record.type.indexOf(value) === 0,
         },
         {
             title: 'Tea Name',
@@ -146,13 +133,16 @@ const BlackTea = () => {
     return (
         <div>
             <Menu />
-            {/* <h1>{t("Language")}test</h1> */}
-            <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12">
-
-            <Table dataSource={blackTeaData} columns={columns} rowKey={blackTeaData.key} pagination={{ pageSize: 20 }} size="small" bordered="true" />
-
-            {/* missing items from black tea */}
-            {/* Darjeeling-Teeaktion, Schadstoffkontrolliert 500 gr 22,00 */}
+            <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
+                <Table
+                dataSource={blackTeaData}
+                columns={columns}
+                rowKey={blackTeaData.key}
+                pagination={{ pageSize: 10 }}
+                size="small"
+                bordered="true"
+                // style={"shadow p-3 mb-5 bg-white rounded"}
+                />
             </div>
         </div>
     );

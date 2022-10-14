@@ -1,5 +1,11 @@
 {
+  "10:00 AM": "10:00 AM",
+  "1:00 PM": "1:00 PM",
+  "4:00 PM": "4:00 PM",
+  "6:30 PM": "6:30 PM",
+
   "About Us": "About Us",
+  "Address": "Address",
 
   "Black Tea": "Black Tea",
 
@@ -15,12 +21,19 @@
   "German": "German",
   "Green Tea": "Green Tea",
 
+  "Hours of Operation": "Hours of Operation",
+
   "Language": "Language",
 
   "Monday": "Monday",
 
+  "Phone": "Phone",
+
+  "Reset": "Reset",
+
   "Sample Text":"Sample Text",
   "Saturday": "Saturday",
+  "Search": "Search",
   "Spice & Chai Tea": "Spice & Chai Tea",
   "Sunday": "Sunday",
 
