@@ -188,141 +188,141 @@ const blackTeaData = [
         type: 'Indien Himalaya',
         // description: ''
     },
-    // {
-    //     key: '22',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '23',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '24',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '25',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '26',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '27',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '28',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '29',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '30',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '31',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '32',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '33',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '34',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '35',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '36',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
+    {
+        key: '22',
+        name: 'Ceylon BOP medium',
+        price_50g: 2.25,
+        price_100g: 3.95,
+        price_250g: 9.60,
+        type: 'Ceylon',
+        description: 'Aromatischer Brocken-Tee, gut zum Mischen'
+    },
+    {
+        key: '23',
+        name: 'Ceylon OP',
+        price_50g: 3.60,
+        price_100g: 6.70,
+        price_250g: 16.50,
+        type: 'Ceylon',
+        description: 'Pettiagalla, großes, langes Blatt, leicht bekömmlicher, würziger, Hochland-Tee'
+    },
+    {
+        key: '24',
+        name: 'Ceylon OP Sommer/Herbst (Ronnefeldt)',
+        // price_50g: ,
+        price_100g: 5.60,
+        price_250g: 14.00,
+        type: 'Ceylon',
+        description: 'Ausgewogene Mischung aus den Gärten des Dimbula im Südwesten der Insel, ergiebig u. aromatisch'
+    },
+    {
+        key: '25',
+        name: 'Ceylon BOP Uva',
+        price_50g: 2.70,
+        price_100g: 4.85,
+        price_250g: 11.85,
+        type: 'Ceylon',
+        description: 'Hervorragende Qualität, herb-Kräftiger Tee aus dem Distrikt Uva'
+    },
+    {
+        key: '26',
+        name: 'Ceylon OP Nuwara Eliya',
+        price_50g: 3.85,
+        price_100g: 7.15,
+        price_250g: 17.60,
+        type: 'Ceylon',
+        description: 'Exzellenter Hochland-Tee, kräftig im Geschmack'
+    },
+    {
+        key: '27',
+        name: 'Ceylon FOP Kandy',
+        price_50g: 3.30,
+        price_100g: 6.05,
+        price_250g: 14.85,
+        type: 'Ceylon',
+        description: 'Spitzenqualität, mild, großes Blatt, geeignet für hartes Wasser'
+    },
+    {
+        key: '28',
+        name: 'Infree',
+        price_50g: 4.70,
+        price_100g: 8.80,
+        price_250g: 21.75,
+        type: 'Ceylon',
+        description: 'Ceylon Brocken-Tee, dem durch ein Spezialverfahren das Teein weitgehend entzogen wurde'
+    },
+    {
+        key: '29',
+        name: 'Mate Tee grün, Argentinien',
+        price_50g: 1.90,
+        price_100g: 3.30,
+        price_250g: 8.00,
+        type: 'Verschiedene Länder',
+        description: 'Aus Blättern des Erva-Mate Baumes, stark anregend'
+    },
+    {
+        key: '30',
+        name: 'Mate Tee geröstet',
+        price_50g: 1.90,
+        price_100g: 3.30,
+        price_250g: 8.00,
+        type: 'Verschiedene Länder',
+        // description: ''
+    },
+    {
+        key: '31',
+        name: 'Sumarta',
+        price_50g: 2.50,
+        price_100g: 4.50,
+        price_250g: 11.00,
+        type: 'Verschiedene Länder',
+        description: 'Kräftig, indonesischer Schwarz-Tee'
+    },
+    {
+        key: '32',
+        name: 'Lapacho',
+        price_50g: 2.35,
+        price_100g: 4.15,
+        price_250g: 10.00,
+        type: 'Verschiedene Länder',
+        description: 'Rinde des roten Lapachobaumes, Südamerika'
+    },
+    {
+        key: '33',
+        name: 'Türkische Mischung',
+        price_50g: 2.70,
+        price_100g: 4.85,
+        price_250g: 11.85,
+        type: 'Verschiedene Länder',
+        description: 'Kräftiger Schwarz-Tee'
+    },
+    {
+        key: '34',
+        name: 'Java',
+        price_50g: 2.50,
+        price_100g: 4.50,
+        price_250g: 11.00,
+        type: 'Verschiedene Länder',
+        description: 'Dunkelziehender Schwarz-Tee, geeignet zum Mischung'
+    },
+    {
+        key: '35',
+        name: 'Kenya Pekoe Highgrown',
+        price_50g: 3.60,
+        price_100g: 6.70,
+        price_250g: 16.50,
+        type: 'Afrika',
+        description: 'Afriikanischer Schwarz-Tee, fein-herbes Aroma'
+    },
+    {
+        key: '36',
+        name: 'Tee Le Touarec',
+        price_50g: 2.50,
+        price_100g: 5.00,
+        price_250g: 12.00,
+        type: 'Afrika',
+        description: 'Grüner China Gunpowder mit erfrischendem Minzgeschmack'
+    },
     // {
     //     key: '37',
     //     name: 'aaa',
