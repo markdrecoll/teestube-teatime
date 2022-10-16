@@ -323,132 +323,132 @@ const blackTeaData = [
         type: 'Afrika',
         description: 'Grüner China Gunpowder mit erfrischendem Minzgeschmack'
     },
-    // {
-    //     key: '37',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '38',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '39',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '40',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '41',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '42',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '43',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '44',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '45',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '46',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '47',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '48',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '49',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },
-    // {
-    //     key: '50',
-    //     name: 'aaa',
-    //     price_50g: 123,
-    //     price_100g: 123,
-    //     price_250g: 123,
-    //     type: 'ccc',
-    //     description: 'ddd'
-    // },    
+    {
+        key: '37',
+        name: 'Grusinien BOP',
+        price_50g: 2.70,
+        price_100g: 4.85,
+        price_250g: 11.75,
+        type: 'Russland',
+        description: 'Orginal Russischer Schwarz- Tee mit wenig Gerbsäure'
+    },
+    {
+        key: '38',
+        name: 'Russische Mischung',
+        price_50g: 2.70,
+        price_100g: 4.85,
+        price_250g: 11.75,
+        type: 'Russland',
+        description: 'Kräftige und aromatische Blattmischung aus Assam, China und Darjeeling Tee'
+    },
+    {
+        key: '39',
+        name: 'English Blend Brocken Tea',
+        price_50g: 2.50,
+        price_100g: 5.00,
+        price_250g: 12.00,
+        type: 'England (Hauptbestandteil: Ceylon)',
+        // description: ''
+    },
+    {
+        key: '40',
+        name: 'English Breakfast Tea',
+        price_50g: 2.85,
+        price_100g: 5.20,
+        price_250g: 12.75,
+        type: 'England (Hauptbestandteil: Ceylon)',
+        // description: ''
+    },
+    {
+        key: '41',
+        name: 'Ostfriesen Brocken Mischung',
+        price_50g: 2.60,
+        price_100g: 4.65,
+        price_250g: 11.35,
+        type: 'Ostfriesland (enthält zu 90% Assam-Tee)',
+        description: 'ddd'
+    },
+    {
+        key: '42',
+        name: 'Ostfriesen Blatt Mischung',
+        price_50g: 2.85,
+        price_100g: 5.20,
+        price_250g: 12.75,
+        type: 'Ostfriesland (enthält zu 90% Assam-Tee)',
+        description: 'ddd'
+    },
+    {
+        key: '43',
+        name: 'Infree',
+        price_50g: 4.70,
+        price_100g: 8.80,
+        price_250g: 21.75,
+        type: 'Infree Tee',
+        description: 'Ceylon Tee, dem durch ein Spezialverfahren das Teein weitgehend entzogen wurde'
+    },
+    {
+        key: '44',
+        name: 'Greenfield light teeinfrei',
+        price_50g: 3.70,
+        price_100g: 6.90,
+        price_250g: 17.00,
+        type: 'Infree Tee',
+        description: 'Sympathischer China Sencha, angenehmer Geschmack'
+    },
+    {
+        key: '45',
+        name: 'Tarry Lapsangsouchong',
+        price_50g: 3.00,
+        price_100g: 5.50,
+        price_250g: 13.35,
+        type: 'China Schwarz-Tee',
+        description: 'Über Holzfeuer geräucherter China Tee, sehr intensiv'
+    },
+    {
+        key: '46',
+        name: 'Szechwan Black',
+        price_50g: 2.75,
+        price_100g: 4.95,
+        price_250g: 12.35,
+        type: 'China Schwarz-Tee',
+        description: 'Schwarzer China-Tee, weich im Geschmack, wenig teein'
+    },
+    {
+        key: '47',
+        name: 'Keemun Black',
+        price_50g: 2.75,
+        price_100g: 4.95,
+        price_250g: 12.35,
+        type: 'China Schwarz-Tee',
+        description: 'Feiner China-Tee, teeinarm, gut für abends und für den Magen-Darm-Trakt'
+    },
+    {
+        key: '48',
+        name: 'Keemun (Ronnefeldt)',
+        // price_50g: ,
+        price_100g: 5.50,
+        price_250g: 13.25,
+        type: 'China Schwarz-Tee',
+        description: 'EleganterTee aus China für Teetrinker, die leichte, weiche Chinatees und ihre mild anregende'
+    },
+    {
+        key: '49',
+        name: 'Golden Yunnan',
+        price_50g: 2.75,
+        price_100g: 4.95,
+        price_250g: 12.35,
+        type: 'China Schwarz-Tee',
+        description: 'Schwarzer China Tee, weich in der Tasse'
+    },
+    {
+        key: '50',
+        name: 'Pu-Erh Tee, first grade Blatttgrad 3',
+        price_50g: 2.75,
+        price_100g: 5.60,
+        price_250g: 13.75,
+        type: 'China Schwarz-Tee',
+        description: 'Beste Qualität, typisches Aroma, tippy'
+    },    
 ]
 
 export default blackTeaData;
