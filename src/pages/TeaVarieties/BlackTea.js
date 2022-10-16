@@ -1,5 +1,5 @@
 import { t } from "i18next";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import Menu from '../../components/Menu';
 
 import { Table, Input, Button, Space, Row, Col } from "antd";
@@ -173,7 +173,6 @@ const BlackTea = () => {
                 pagination={{ pageSize: 10 }}
                 size="small"
                 bordered="true"
-                // style={"shadow p-3 mb-5 bg-white rounded"}
                 />
             </div>
         </div>
