@@ -95,6 +95,38 @@ const BlackTea = () => {
                 {
                     text: 'Indien Himalaya',
                     value: 'Indien Himalaya'
+                },
+                {
+                    text: 'Ceylon',
+                    value: 'Ceylon'
+                },
+                {
+                    text: 'Verschiedene Länder',
+                    value: 'Verschiedene Länder'
+                },
+                {
+                    text: 'Afrika',
+                    value: 'Afrika'
+                },
+                {
+                    text: 'Russland',
+                    value: 'Russland'
+                },
+                {
+                    text: 'England (Hauptbestandteil: Ceylon)',
+                    value: 'England (Hauptbestandteil: Ceylon)'
+                },
+                {
+                    text: 'Ostfriesland (enthält zu 90% Assam-Tee)',
+                    value: 'Ostfriesland (enthält zu 90% Assam-Tee)'
+                },
+                {
+                    text: 'Infree Tee',
+                    value: 'Infree Tee'
+                },
+                {
+                    text: 'China Schwarz-Tee',
+                    value: 'China Schwarz-Tee'
                 }
             ],
             onFilter: (value, record) => record.type.indexOf(value) === 0,

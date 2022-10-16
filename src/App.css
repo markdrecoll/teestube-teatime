@@ -50,3 +50,8 @@
     height:auto;
   }
 }
+
+.image-gallery-slide img {
+  width: 600px;
+  height: 400px;
+}
