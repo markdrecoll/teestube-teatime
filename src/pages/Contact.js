@@ -25,7 +25,7 @@ const Contact = () => {
                 <p className="m-0 fw-bold">{t("Address")}:</p>
                 <p className="m-0">Christofsstr. 11,AM Karmeliterplatz 55116 Mainz</p>
                 <p className="m-0 fw-bold">{t("Phone")}/Fax:</p>
-                <p className="m-0">+49 06131 223604</p>
+                <p className="m-0">{t("companyPhoneNumber")}</p>
               </Card.Text>
               <Table size="sm">
                 <thead>

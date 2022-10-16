@@ -5,12 +5,24 @@ import "../styles/image-gallery.scss"
 
 const images = [
   {
-    original: process.env.PUBLIC_URL + "/assets/images/banner1.jpg",
-    thumbnail: process.env.PUBLIC_URL + "/assets/images/banner1.jpg",
+    original: process.env.PUBLIC_URL + "/assets/images/gallery/img_5779.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/assets/images/gallery/img_5779.jpg",
   },
   {
-    original: process.env.PUBLIC_URL + "/assets/images/banner2.jpg",
-    thumbnail: process.env.PUBLIC_URL + "/assets/images/banner2.jpg",
+    original: process.env.PUBLIC_URL + "/assets/images/gallery/img_5781.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/assets/images/gallery/img_5781.jpg",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/assets/images/gallery/img_5786.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/assets/images/gallery/img_5786.jpg",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/assets/images/gallery/img_5795.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/assets/images/gallery/img_5795.jpg",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/assets/images/gallery/img_5800.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/assets/images/gallery/img_5800.jpg",
   },
 ];
 
@@ -18,8 +30,7 @@ const Gallery = () => {
     return (
       <div>
         <Menu />
-        <h1>Gallery</h1>
-        <ImageGallery items={images} />
+        <ImageGallery items={images} showFullscreenButton={false} showPlayButton={false} />
       </div>
     );
   };
