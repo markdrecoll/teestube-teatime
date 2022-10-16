@@ -1,5 +1,6 @@
 {
   "name": "teestube-teatime",
+  "homepage": "https://www.avantperio.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
