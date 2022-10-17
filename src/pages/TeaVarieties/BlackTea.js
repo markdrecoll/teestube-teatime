@@ -1,5 +1,5 @@
 import { t } from "i18next";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Menu from '../../components/Menu';
 
 import { Table, Input, Button, Space, Row, Col } from "antd";
@@ -12,6 +12,19 @@ const BlackTea = () => {
 
     const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
     const searchInput = useRef(null);
+
+    let firstTeas = []
+
+    const getFirstTeas = () => {
+        for(var i=0; i++; i<10){
+            firstTeas.push("sdas");
+        }
+    }
+
+    useEffect(() => {
+        getFirstTeas();
+        console.log(firstTeas)
+    });
 
     const handleSearch = (selectedKeys, confirm, dataIndex) => {
         confirm();
@@ -147,7 +160,6 @@ const BlackTea = () => {
             dataIndex: 'price_50g',
             key: 'price_50g',
             sorter: (a, b) => a.price_50g - b.price_50g
-            //   width: "100px",
         },
         {
             title: '100 Grams',
