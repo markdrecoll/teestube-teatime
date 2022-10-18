@@ -35,16 +35,16 @@ const greenTeaData = [
         type: 'Japan Grüntee',
         // description: ''
     },
-    // {
-    //     key: '5',
-    //     name: 'Matcha BIO',
-    //     price_50g: ,
-    //     price_100g: ,
-    //     price_250g: ,
-    //     type: 'Japan Grüntee',
-    //     description: 'Japan Original Premium'
-    //     original text was 30 gr in Dose 39,00
-    // },
+    {
+        key: '5',
+        name: 'Matcha BIO',
+        // price_50g: ,
+        // price_100g: ,
+        // price_250g: ,
+        type: 'Japan Grüntee',
+        description: 'Japan Original Premium "30 gr in Dose 39,00"'
+        // original text was 30 gr in Dose 39,00
+    },
     {
         key: '6',
         name: 'Chun Mee',
