@@ -61,3 +61,7 @@
   font-family: 'Allura', Arial, Helvetica;
   font-weight: bold;
 }
+
+.ant-table.ant-table-small {
+  font-size: smaller;
+}

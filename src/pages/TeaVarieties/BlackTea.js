@@ -176,6 +176,7 @@ const BlackTea = () => {
                 pagination={{ pageSize: 10 }}
                 size="small"
                 bordered="true"
+                scroll={{ x: 400 }}
                 />
             </div>
         </div>
