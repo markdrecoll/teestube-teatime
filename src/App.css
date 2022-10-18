@@ -52,12 +52,12 @@
 }
 
 .about_us_text-p {
-  font-family: 'Allura';
+  font-family: 'Allura', Arial, Helvetica;
   font-weight: bold;
   font-size: 1.5em;
 }
 
 .about_us_text-h {
-  font-family: 'Allura';
+  font-family: 'Allura', Arial, Helvetica;
   font-weight: bold;
 }

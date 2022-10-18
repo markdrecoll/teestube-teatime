@@ -174,6 +174,7 @@ const BlackTea = () => {
             sorter: (a, b) => a.price_250g - b.price_250g
         }
     ]
+    
     return (
         <div>
             <Menu />
