@@ -157,6 +157,7 @@ const GreenTea = () => {
       dataIndex: 'price_50g',
       key: 'price_50g',
       sorter: (a, b) => a.price_50g - b.price_50g,
+      render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : '',
       onCell: sharedOnCell,
     },
     {
@@ -164,6 +165,7 @@ const GreenTea = () => {
       dataIndex: 'price_100g',
       key: 'price_100g',
       sorter: (a, b) => a.price_100g - b.price_100g,
+      render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : '',
       onCell: sharedOnCell,
     },
     {
@@ -171,6 +173,7 @@ const GreenTea = () => {
       dataIndex: 'price_250g',
       key: 'price_250g',
       sorter: (a, b) => a.price_250g - b.price_250g,
+      render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : '',
       onCell: sharedOnCell,
     }
   ]
