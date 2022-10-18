@@ -42,7 +42,7 @@ const greenTeaData = [
         // price_100g: ,
         // price_250g: ,
         type: 'Japan Grüntee',
-        description: 'Japan Original Premium "30 gr in Dose 39,00"'
+        description: 'Japan Original Premium: 30 gr in Dose 39,00'
         // original text was 30 gr in Dose 39,00
     },
     {
@@ -72,16 +72,15 @@ const greenTeaData = [
         type: 'China Grüntee',
         description: 'Berühmt als der Beste aller grünen Tees, sehr anregend, mehrmals Aufgießen'
     },
-    // {
-    //     key: '9',
-    //     name: 'Pu Erh Tee grün (gepreßter Pu Erh Tee)',
-    //     price_50g: ,
-    //     price_100g: ,
-    //     price_250g: ,
-    //     type: 'China Grüntee',
-    //     description: 'zzz'
-    //     original text was Stück 1,30
-    // },
+    {
+        key: '9',
+        name: 'Pu Erh Tee grün (gepreßter Pu Erh Tee)',
+        // price_50g: ,
+        // price_100g: ,
+        // price_250g: ,
+        type: 'China Grüntee',
+        description: 'Stück 1,30'
+    },
     {
         key: '10',
         name: 'Greenfield light teein frei',
