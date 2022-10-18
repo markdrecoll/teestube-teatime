@@ -1,10 +1,10 @@
-import { t } from "i18next";
-import React, { useState, useRef, useEffect } from "react";
-import Menu from '../../components/Menu';
-
-import { Table, Input, Button, Space, Row, Col } from "antd";
+import React, { useState, useRef } from "react";
+import { Table, Input, Button, Space } from "antd";
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
+import { t } from "i18next";
+
+import Menu from '../../components/Menu';
 import blackTeaData from '../../teaData/blackTeaData'
 
 
@@ -12,19 +12,6 @@ const BlackTea = () => {
 
     const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
     const searchInput = useRef(null);
-
-    let firstTeas = []
-
-    const getFirstTeas = () => {
-        for(var i=0; i++; i<10){
-            firstTeas.push("sdas");
-        }
-    }
-
-    useEffect(() => {
-        getFirstTeas();
-        console.log(firstTeas)
-    });
 
     const handleSearch = (selectedKeys, confirm, dataIndex) => {
         confirm();
@@ -174,10 +161,13 @@ const BlackTea = () => {
             sorter: (a, b) => a.price_250g - b.price_250g
         }
     ]
+
+    const number = 123456.789;
     
     return (
         <div>
             <Menu />
+            <h1>{(new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(number))}</h1>
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
                 <Table
                 dataSource={blackTeaData}

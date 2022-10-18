@@ -77,6 +77,15 @@ const GreenTea = () => {
       ),
   });
 
+  const sharedOnCell = (_, index) => {
+    if (index === 4) {
+      return {
+        colSpan: 0,
+      };
+    }
+    return {};
+  };
+
   const columns = [
     {
       title: 'Tea Type',
@@ -134,30 +143,35 @@ const GreenTea = () => {
       title: 'Tea Name',
       dataIndex: 'name',
       key: 'name',
+      // onCell: sharedOnCell,
       ...getColumnSearchProps('name'),
     },
     {
       title: 'Description',
       dataIndex: 'description',
-      key: 'description'
+      key: 'description',
+      // onCell: sharedOnCell,
     },
     {
       title: '50 Grams',
       dataIndex: 'price_50g',
       key: 'price_50g',
-      sorter: (a, b) => a.price_50g - b.price_50g
+      sorter: (a, b) => a.price_50g - b.price_50g,
+      onCell: sharedOnCell,
     },
     {
       title: '100 Grams',
       dataIndex: 'price_100g',
       key: 'price_100g',
-      sorter: (a, b) => a.price_100g - b.price_100g
+      sorter: (a, b) => a.price_100g - b.price_100g,
+      onCell: sharedOnCell,
     },
     {
       title: '250 Grams',
       dataIndex: 'price_250g',
       key: 'price_250g',
-      sorter: (a, b) => a.price_250g - b.price_250g
+      sorter: (a, b) => a.price_250g - b.price_250g,
+      onCell: sharedOnCell,
     }
   ]
 
