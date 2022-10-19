@@ -142,21 +142,21 @@ const BlackTea = () => {
             key: 'description'
         },
         {
-            title: '50 Grams',
+            title: t('50 Grams'),
             dataIndex: 'price_50g',
             key: 'price_50g',
             sorter: (a, b) => a.price_50g - b.price_50g,
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         },
         {
-            title: '100 Grams',
+            title: t('100 Grams'),
             dataIndex: 'price_100g',
             key: 'price_100g',
             sorter: (a, b) => a.price_100g - b.price_100g,
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         },
         {
-            title: '250 Grams',
+            title: t('250 Grams'),
             dataIndex: 'price_250g',
             key: 'price_250g',
             sorter: (a, b) => a.price_250g - b.price_250g,
