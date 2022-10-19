@@ -1,11 +1,11 @@
-import { t } from "i18next";
 import React, { useState, useRef } from "react";
-import Menu from '../../components/Menu';
-
-import { Table, Input, Button, Space, Row, Col } from "antd";
+import { Table, Input, Button, Space } from "antd";
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
-// import  from '../../teaData/'
+import { t } from "i18next";
+
+import Menu from '../../components/Menu';
+// import blackTeaData from '../../teaData/blackTeaData';
 
 const FruitTea = () => {
     return (
