@@ -1,11 +1,11 @@
-import { t } from "i18next";
 import React, { useState, useRef } from "react";
-import Menu from '../../components/Menu';
-
-import { Table, Input, Button, Space, Row, Col } from "antd";
+import { Table, Input, Button, Space } from "antd";
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
-import greenTeaData from '../../teaData/greenTeaData'
+import { t } from "i18next";
+
+import Menu from '../../components/Menu';
+import greenTeaData from '../../teaData/greenTeaData';
 
 const GreenTea = () => {
 
@@ -101,40 +101,20 @@ const GreenTea = () => {
           value: 'China Grüntee'
         },
         {
-          text: 'Indien Himalaya',
-          value: 'Indien Himalaya'
+          text: 'China weißtee',
+          value: 'China weißtee'
         },
         {
-          text: 'Ceylon',
-          value: 'Ceylon'
+          text: 'Formosa (Taiwan) Grüntee',
+          value: 'Formosa (Taiwan) Grüntee'
         },
         {
-          text: 'Verschiedene Länder',
-          value: 'Verschiedene Länder'
+          text: 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)',
+          value: 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)'
         },
         {
-          text: 'Afrika',
-          value: 'Afrika'
-        },
-        {
-          text: 'Russland',
-          value: 'Russland'
-        },
-        {
-          text: 'England (Hauptbestandteil: Ceylon)',
-          value: 'England (Hauptbestandteil: Ceylon)'
-        },
-        {
-          text: 'Ostfriesland (enthält zu 90% Assam-Tee)',
-          value: 'Ostfriesland (enthält zu 90% Assam-Tee)'
-        },
-        {
-          text: 'Infree Tee',
-          value: 'Infree Tee'
-        },
-        {
-          text: 'China Schwarz-Tee',
-          value: 'China Schwarz-Tee'
+          text: 'Verschiedene Länder Grüntee (Ronnefeldt)',
+          value: 'Verschiedene Länder Grüntee (Ronnefeldt)'
         }
       ],
       onFilter: (value, record) => record.type.indexOf(value) === 0,
