@@ -14,9 +14,9 @@ const About = () => {
               <h3 className="about_us_text-h">Tee-Freunde,</h3>
               <p className="about_us_text-p">
                 Herzlich willkomen auf den Seiten des ältesten Tee-Fachgeschäftes in Main.
-                Die Teestube Teatime wurde im jarh 1981 an einem historisch bedeutsamen Platz (Karmeliterplatz eröffnet.)
-                Durch unsere langjährige Erfahrung finden Sie bei uns eine umfangreiche Teeauswahl aus allen bekannten. 
-                Anbaugebieten der welt. Sie erleben die Viefalt des Tees in all ihren Facetten. Alle unsere Teesorten
+                Die Teestube Teatime wurde im jarh 1981 an einem historisch bedeutsamen Platz (Karmeliterplatz) eröffnet.
+                Durch unsere langjährige Erfahrung finden Sie bei uns eine umfangreiche Teeauswahl aus allen bekannten
+                anbaugebieten der Welt. Sie erleben die Viefalt des Tees in all ihren Facetten. Alle unsere Teesorten
                 sind durch unsere Liebferanten rückstandskontrolliert.
               </p>
               <p className="about_us_text-p">
@@ -41,9 +41,6 @@ const About = () => {
           </Card>
           </div>
         </div>
-        {/*  */}
-        {/* <h2>Tee-Freunde,</h2> */}
-        {/* <p>Herzlich willkommen auf den Seiten des altesten Tee-Fac</p> */}
       </div>
     );
   };
