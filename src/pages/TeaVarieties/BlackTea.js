@@ -163,15 +163,17 @@ const BlackTea = () => {
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
     ]
+
+    const indienAssamTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Assam'});
     
     return (
         <div>
             <Menu />
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
                 <Table
-                dataSource={blackTeaData}
+                dataSource={indienAssamTeas}
                 columns={columns}
-                rowKey={blackTeaData.key}
+                rowKey={indienAssamTeas.key}
                 pagination={{ pageSize: 10 }}
                 size="small"
                 bordered="true"
