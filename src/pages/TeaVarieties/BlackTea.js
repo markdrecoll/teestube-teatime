@@ -132,13 +132,19 @@ const BlackTea = () => {
         //     onFilter: (value, record) => record.type.indexOf(value) === 0,
         // },
         {
-            title: 'Tea Name',
-            dataIndex: 'name',
-            key: 'name',
-            ...getColumnSearchProps('name'),
+            title: '',
+            dataIndex: 'menuNumber',
+            key: 'menuNumber',
+            // ...getColumnSearchProps('menuNumber'),
         },
         {
-            title: 'Description',
+            title: t('Name'),
+            dataIndex: 'name',
+            key: 'name',
+            // ...getColumnSearchProps('name'),
+        },
+        {
+            title: t('Description'),
             dataIndex: 'description',
             key: 'description'
         },
@@ -146,21 +152,21 @@ const BlackTea = () => {
             title: t('50 Grams'),
             dataIndex: 'price_50g',
             key: 'price_50g',
-            sorter: (a, b) => a.price_50g - b.price_50g,
+            // sorter: (a, b) => a.price_50g - b.price_50g,
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         },
         {
             title: t('100 Grams'),
             dataIndex: 'price_100g',
             key: 'price_100g',
-            sorter: (a, b) => a.price_100g - b.price_100g,
+            // sorter: (a, b) => a.price_100g - b.price_100g,
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         },
         {
             title: t('250 Grams'),
             dataIndex: 'price_250g',
             key: 'price_250g',
-            sorter: (a, b) => a.price_250g - b.price_250g,
+            // sorter: (a, b) => a.price_250g - b.price_250g,
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
     ]

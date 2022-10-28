@@ -1,6 +1,3 @@
-Missing the following teas that did not fit the data model:
-Darjeeling-Teeaktion, Schadstoffkontrolliert 500 gr 22,00
-
 Things to do:
 
 MAKE TRANSLATION BUTTON RERENDER (or force refresh) get table data again
@@ -14,6 +11,7 @@ alt for images in gallery
 convert js objects to json
 
 Questions:
+For menu numbers: Some are 20.1 others 35/1
 Ask about highlighting on search
 Ask about table sorting, searching, filtering
 Language change button on footer?
