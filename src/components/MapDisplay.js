@@ -1,6 +1,7 @@
 import GoogleMapReact from 'google-map-react';
+import { EnvironmentTwoTone } from '@ant-design/icons';
 
-const MapDisplay = ({ text }) => <div>{text}</div>;
+const MapDisplay = () => <h2><EnvironmentTwoTone /></h2>;
 
 export default function SimpleMap(){
   const defaultProps = {
@@ -22,7 +23,6 @@ export default function SimpleMap(){
         <MapDisplay
           lat={50.00242350556172}
           lng={8.272054595464294}
-          text="Teestube"
         />
       </GoogleMapReact>
     </div>
