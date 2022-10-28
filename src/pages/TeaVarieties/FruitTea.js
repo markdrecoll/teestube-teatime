@@ -79,6 +79,11 @@ const FruitTea = () => {
 
     const columns = [
         {
+            title: '',
+            dataIndex: [1, 2, 3],
+            // key: 'name',
+        },
+        {
             title: 'Tea Name',
             dataIndex: 'name',
             key: 'name',
