@@ -25,14 +25,14 @@ const BlackTea = () => {
                 <Space>
                     <Button
                         type="primary"
-                        onClick={() => handleSearch(selectedKeys, confirm, dataIndex)}
+                        className="teaTypeButtonStyle" size={"small"} onClick={() => handleSearch(selectedKeys, confirm, dataIndex)}
                         icon={<SearchOutlined />}
                         size="small"
                         style={{ width: 100 }}
                     >
                         {t("Search")}
                     </Button>
-                    <Button onClick={() => handleReset(clearFilters, confirm)} size="small" style={{ width: 100 }}>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleReset(clearFilters, confirm)} size="small" style={{ width: 100 }}>
                         {t("Reset")}
                     </Button>
                 </Space>
@@ -176,26 +176,16 @@ const BlackTea = () => {
     const ceylon = blackTeaData.filter(tea => {return tea.type === 'Ceylon'});
     const verschiedeneLänder = blackTeaData.filter(tea => {return tea.type === 'Verschiedene Länder'});
     const afrika = blackTeaData.filter(tea => {return tea.type === 'Afrika'});
+    const russland = blackTeaData.filter(tea => {return tea.type === 'Russland'});
+    const england = blackTeaData.filter(tea => {return tea.type === 'England (Hauptbestandteil: Ceylon)'});
+    const ostfriesland = blackTeaData.filter(tea => {return tea.type === 'Ostfriesland (enthält zu 90% Assam-Tee)'});
+    const infree = blackTeaData.filter(tea => {return tea.type === 'Infree Tee'});
+    const china = blackTeaData.filter(tea => {return tea.type === 'China Schwarz-Tee'});
 
     const [currentTeaType, setCurrentTeaType] = useState(indienAssamTeas);
 
-    const handleIndienAssamTeas = () => {
-        setCurrentTeaType(indienAssamTeas);
-    }
-    const handleIndienDarjeelingTeas = () => {
-        setCurrentTeaType(indienDarjeelingTeas);
-    }
-    const handleIndienHimalaya = () => {
-        setCurrentTeaType(indienHimalaya);
-    }
-    const handleCeylon = () => {
-        setCurrentTeaType(ceylon);
-    }
-    const handleVerschiedeneLänder = () => {
-        setCurrentTeaType(verschiedeneLänder);
-    }
-    const handleAfrika = () => {
-        setCurrentTeaType(afrika);
+    const handleClick = (teaType) => {
+        setCurrentTeaType(teaType);
     }
     
     return (
@@ -203,13 +193,18 @@ const BlackTea = () => {
             <Menu />
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
-                <div className="d-flex justify-content-between mb-3">
-                    <Button onClick={handleIndienAssamTeas}>Indien Assam</Button>
-                    <Button onClick={handleIndienDarjeelingTeas}>Indien Darjeeling</Button>
-                    <Button onClick={handleIndienHimalaya}>Indien Himalaya</Button>
-                    <Button onClick={handleCeylon}>Ceylon</Button>
-                    <Button onClick={handleVerschiedeneLänder}>Verschiedene Länder</Button>
-                    <Button onClick={handleAfrika}>Afrika</Button>
+                <div className="text-center mb-3">
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienHimalaya)}>Indien Himalaya</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(ceylon)}>Ceylon</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(verschiedeneLänder)}>Verschiedene Länder</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(afrika)}>Afrika</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(russland)}>Russland</Button>                 
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(england)}>England (Hauptbestandteil: Ceylon)</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(ostfriesland)}>Ostfriesland (enthält zu 90% Assam-Tee)</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(infree)}>Infree Tee</Button>
+                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(china)}>China Schwarz-Tee</Button>
                 </div>
 
                 <Table

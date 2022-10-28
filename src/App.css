@@ -65,3 +65,9 @@
 .ant-table.ant-table-small {
   font-size: smaller;
 }
+
+.teaTypeButtonStyle {
+  margin: 2px;
+  padding: 2px;
+  border-color: darkgrey;
+}
