@@ -25,14 +25,14 @@ const BlackTea = () => {
                 <Space>
                     <Button
                         type="primary"
-                        className="teaTypeButtonStyle" size={"small"} onClick={() => handleSearch(selectedKeys, confirm, dataIndex)}
+                        onClick={() => handleSearch(selectedKeys, confirm, dataIndex)}
                         icon={<SearchOutlined />}
                         size="small"
                         style={{ width: 100 }}
                     >
                         {t("Search")}
                     </Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleReset(clearFilters, confirm)} size="small" style={{ width: 100 }}>
+                    <Button onClick={() => handleReset(clearFilters, confirm)} size="small" style={{ width: 100 }}>
                         {t("Reset")}
                     </Button>
                 </Space>
