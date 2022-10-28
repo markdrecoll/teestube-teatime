@@ -87,38 +87,38 @@ const GreenTea = () => {
   };
 
   const columns = [
-    // {
-    //   title: 'Tea Type',
-    //   dataIndex: 'type',
-    //   key: 'type',
-    //   filters: [
-    //     {
-    //       text: 'Japan Grüntee',
-    //       value: 'Japan Grüntee'
-    //     },
-    //     {
-    //       text: 'China Grüntee',
-    //       value: 'China Grüntee'
-    //     },
-    //     {
-    //       text: 'China weißtee',
-    //       value: 'China weißtee'
-    //     },
-    //     {
-    //       text: 'Formosa (Taiwan) Grüntee',
-    //       value: 'Formosa (Taiwan) Grüntee'
-    //     },
-    //     {
-    //       text: 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)',
-    //       value: 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)'
-    //     },
-    //     {
-    //       text: 'Verschiedene Länder Grüntee (Ronnefeldt)',
-    //       value: 'Verschiedene Länder Grüntee (Ronnefeldt)'
-    //     }
-    //   ],
-    //   onFilter: (value, record) => record.type.indexOf(value) === 0,
-    // },
+    {
+      title: 'Tea Type',
+      dataIndex: 'type',
+      key: 'type',
+      filters: [
+        {
+          text: 'Japan Grüntee',
+          value: 'Japan Grüntee'
+        },
+        {
+          text: 'China Grüntee',
+          value: 'China Grüntee'
+        },
+        {
+          text: 'China weißtee',
+          value: 'China weißtee'
+        },
+        {
+          text: 'Formosa (Taiwan) Grüntee',
+          value: 'Formosa (Taiwan) Grüntee'
+        },
+        {
+          text: 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)',
+          value: 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)'
+        },
+        {
+          text: 'Verschiedene Länder Grüntee (Ronnefeldt)',
+          value: 'Verschiedene Länder Grüntee (Ronnefeldt)'
+        }
+      ],
+      onFilter: (value, record) => record.type.indexOf(value) === 0,
+    },
     {
       title: 'Tea Name',
       dataIndex: 'name',

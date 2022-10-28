@@ -168,8 +168,6 @@ const BlackTea = () => {
     const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
     const searchInput = useRef(null);
 
-    
-
     const indienAssamTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Assam'});
     const indienDarjeelingTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Darjeeling'});
     const indienHimalaya = blackTeaData.filter(tea => {return tea.type === 'Indien Himalaya'});
