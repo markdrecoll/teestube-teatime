@@ -168,18 +168,56 @@ const BlackTea = () => {
     const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
     const searchInput = useRef(null);
 
+    
+
     const indienAssamTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Assam'});
     const indienDarjeelingTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Darjeeling'});
+    const indienHimalaya = blackTeaData.filter(tea => {return tea.type === 'Indien Himalaya'});
+    const ceylon = blackTeaData.filter(tea => {return tea.type === 'Ceylon'});
+    const verschiedeneLänder = blackTeaData.filter(tea => {return tea.type === 'Verschiedene Länder'});
+    const afrika = blackTeaData.filter(tea => {return tea.type === 'Afrika'});
+
+    const [currentTeaType, setCurrentTeaType] = useState(indienAssamTeas);
+
+    const handleIndienAssamTeas = () => {
+        setCurrentTeaType(indienAssamTeas);
+    }
+    const handleIndienDarjeelingTeas = () => {
+        setCurrentTeaType(indienDarjeelingTeas);
+    }
+    const handleIndienHimalaya = () => {
+        setCurrentTeaType(indienHimalaya);
+    }
+    const handleCeylon = () => {
+        setCurrentTeaType(ceylon);
+    }
+    const handleVerschiedeneLänder = () => {
+        setCurrentTeaType(verschiedeneLänder);
+    }
+    const handleAfrika = () => {
+        setCurrentTeaType(afrika);
+    }
     
     return (
         <div>
             <Menu />
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
+
+                <div className="d-flex justify-content-between mb-3">
+                    <Button onClick={handleIndienAssamTeas}>Indien Assam</Button>
+                    <Button onClick={handleIndienDarjeelingTeas}>Indien Darjeeling</Button>
+                    <Button onClick={handleIndienHimalaya}>Indien Himalaya</Button>
+                    <Button onClick={handleCeylon}>Ceylon</Button>
+                    <Button onClick={handleVerschiedeneLänder}>Verschiedene Länder</Button>
+                    <Button onClick={handleAfrika}>Afrika</Button>
+                </div>
+
                 <Table
-                dataSource={indienAssamTeas}
+                dataSource={currentTeaType? currentTeaType : ""}
                 columns={columns}
-                rowKey={indienAssamTeas.key}
-                pagination={{ pageSize: 10 }}
+                rowKey={currentTeaType? currentTeaType.key : ""}
+                // pagination={{ pageSize: 10 }}
+                pagination={false}
                 size="small"
                 bordered="true"
                 scroll={{ x: 400 }}
