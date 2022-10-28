@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import BlackTea from './pages/TeaVarieties/BlackTea';
 import GreenTea from './pages/TeaVarieties/GreenTea';
 import FruitTea from './pages/TeaVarieties/FruitTea';
+import RooibuschHoneybuschTee from './pages/TeaVarieties/RooibuschHoneybuschTee';
 import SpiceAndChaiTea from './pages/TeaVarieties/SpiceAndChaiTea';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/black_tea" element={<BlackTea />} />
         <Route path="/green_tea" element={<GreenTea />} />
         <Route path="/fruit_tea" element={<FruitTea />} />
+        <Route path="/rooibusch_honeybusch" element={<RooibuschHoneybuschTee />} />
         <Route path="/spice_and_chai_tea" element={<SpiceAndChaiTea />} />
       </Routes>
     </Router>
