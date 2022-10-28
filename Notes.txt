@@ -11,6 +11,7 @@ Fix marker on google map
 routing translations
 money api convert to USD?
 alt for images in gallery
+convert js objects to json
 
 Questions:
 Ask about highlighting on search

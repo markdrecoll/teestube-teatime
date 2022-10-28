@@ -8,24 +8,8 @@ import Menu from '../../components/Menu';
 import blackTeaData from '../../teaData/blackTeaData';
 
 const BlackTea = () => {
-
-    const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
-    const searchInput = useRef(null);
-
-    const handleSearch = (selectedKeys, confirm, dataIndex) => {
-        confirm();
-        setSearchState({
-            searchText: selectedKeys[0],
-            searchedColumn: dataIndex,
-        });
-    };
-
-    const handleReset = (clearFilters, confirm) => {
-        clearFilters();
-        setSearchState({ searchText: '' });
-        confirm();
-    };
-
+    
+    // Search Functionality for Table
     // adapted from antd table search, as well as stack overflow showing how to convert to functional https://stackoverflow.com/questions/69356379/how-to-do-column-level-search-in-ant-design-using-function-component
     const getColumnSearchProps = dataIndex => ({
         filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters }) => (
@@ -75,61 +59,78 @@ const BlackTea = () => {
             ) : (
                 text
             ),
-    });    
+    });
 
+    // Search helper function
+    const handleSearch = (selectedKeys, confirm, dataIndex) => {
+        confirm();
+        setSearchState({
+            searchText: selectedKeys[0],
+            searchedColumn: dataIndex,
+        });
+    };
+
+    // Search reset function
+    const handleReset = (clearFilters, confirm) => {
+        clearFilters();
+        setSearchState({ searchText: '' });
+        confirm();
+    };
+
+    // Columns of the table
     const columns = [
-        {
-            title: 'Tea Type',
-            dataIndex: 'type',
-            key: 'type',
-            filters: [
-                {
-                    text: 'Indien Assam',
-                    value: 'Indien Assam'
-                },
-                {
-                    text: 'Indien Darjeeling',
-                    value: 'Indien Darjeeling'
-                },
-                {
-                    text: 'Indien Himalaya',
-                    value: 'Indien Himalaya'
-                },
-                {
-                    text: 'Ceylon',
-                    value: 'Ceylon'
-                },
-                {
-                    text: 'Verschiedene Länder',
-                    value: 'Verschiedene Länder'
-                },
-                {
-                    text: 'Afrika',
-                    value: 'Afrika'
-                },
-                {
-                    text: 'Russland',
-                    value: 'Russland'
-                },
-                {
-                    text: 'England (Hauptbestandteil: Ceylon)',
-                    value: 'England (Hauptbestandteil: Ceylon)'
-                },
-                {
-                    text: 'Ostfriesland (enthält zu 90% Assam-Tee)',
-                    value: 'Ostfriesland (enthält zu 90% Assam-Tee)'
-                },
-                {
-                    text: 'Infree Tee',
-                    value: 'Infree Tee'
-                },
-                {
-                    text: 'China Schwarz-Tee',
-                    value: 'China Schwarz-Tee'
-                }
-            ],
-            onFilter: (value, record) => record.type.indexOf(value) === 0,
-        },
+        // {
+        //     title: 'Tea Type',
+        //     dataIndex: 'type',
+        //     key: 'type',
+        //     filters: [
+        //         {
+        //             text: 'Indien Assam',
+        //             value: 'Indien Assam'
+        //         },
+        //         {
+        //             text: 'Indien Darjeeling',
+        //             value: 'Indien Darjeeling'
+        //         },
+        //         {
+        //             text: 'Indien Himalaya',
+        //             value: 'Indien Himalaya'
+        //         },
+        //         {
+        //             text: 'Ceylon',
+        //             value: 'Ceylon'
+        //         },
+        //         {
+        //             text: 'Verschiedene Länder',
+        //             value: 'Verschiedene Länder'
+        //         },
+        //         {
+        //             text: 'Afrika',
+        //             value: 'Afrika'
+        //         },
+        //         {
+        //             text: 'Russland',
+        //             value: 'Russland'
+        //         },
+        //         {
+        //             text: 'England (Hauptbestandteil: Ceylon)',
+        //             value: 'England (Hauptbestandteil: Ceylon)'
+        //         },
+        //         {
+        //             text: 'Ostfriesland (enthält zu 90% Assam-Tee)',
+        //             value: 'Ostfriesland (enthält zu 90% Assam-Tee)'
+        //         },
+        //         {
+        //             text: 'Infree Tee',
+        //             value: 'Infree Tee'
+        //         },
+        //         {
+        //             text: 'China Schwarz-Tee',
+        //             value: 'China Schwarz-Tee'
+        //         }
+        //     ],
+        //     onFilter: (value, record) => record.type.indexOf(value) === 0,
+        // },
         {
             title: 'Tea Name',
             dataIndex: 'name',
@@ -164,7 +165,11 @@ const BlackTea = () => {
         }
     ]
 
+    const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
+    const searchInput = useRef(null);
+
     const indienAssamTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Assam'});
+    const indienDarjeelingTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Darjeeling'});
     
     return (
         <div>
