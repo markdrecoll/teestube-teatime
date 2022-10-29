@@ -12,6 +12,7 @@ import BlackTea from './pages/TeaVarieties/BlackTea';
 import GreenTea from './pages/TeaVarieties/GreenTea';
 import FruitTea from './pages/TeaVarieties/FruitTea';
 import RooibuschHoneybuschTee from './pages/TeaVarieties/RooibuschHoneybuschTee';
+import Kräutermischungen from './pages/TeaVarieties/Kräutermischungen';
 import SpiceAndChaiTea from './pages/TeaVarieties/SpiceAndChaiTea';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/green_tea" element={<GreenTea />} />
         <Route path="/fruit_tea" element={<FruitTea />} />
         <Route path="/rooibusch_honeybusch" element={<RooibuschHoneybuschTee />} />
+        <Route path="/krautermischungen" element={<Kräutermischungen />} />
         <Route path="/spice_and_chai_tea" element={<SpiceAndChaiTea />} />
       </Routes>
     </Router>

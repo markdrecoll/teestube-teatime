@@ -30,7 +30,8 @@ function Menu() {
 							<NavDropdown.Item href="/black_tea">{t("Black Tea")}</NavDropdown.Item>
 							<NavDropdown.Item href="/green_tea">{t("Green Tea")}</NavDropdown.Item>
 							<NavDropdown.Item href="/fruit_tea">{t("Fruit Tea")}</NavDropdown.Item>
-							<NavDropdown.Item href="/rooibusch_honeybusch">Rooibuschtee & Honeybusch Südafrika</NavDropdown.Item>							
+							<NavDropdown.Item href="/rooibusch_honeybusch">Rooibuschtee & Honeybusch Südafrika</NavDropdown.Item>
+							<NavDropdown.Item href="/krautermischungen">Kräutermischungen</NavDropdown.Item>
 							{/* <NavDropdown.Item href="/spice_and_chai_tea">{t("Spice & Chai Tea")}</NavDropdown.Item> */}
 						</NavDropdown>
 						<Nav.Link href="/about">{t("About Us")}</Nav.Link>
