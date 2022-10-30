@@ -198,6 +198,10 @@ const BlackTea = () => {
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
+                    <h2>Klassischer Schwarztee</h2>
+                </div>
+
+                <div className="text-center mb-3">
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienHimalaya)}>Indien Himalaya</Button>
