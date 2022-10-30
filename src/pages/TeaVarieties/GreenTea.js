@@ -88,6 +88,11 @@ const GreenTea = () => {
 
   const columns = [
     {
+      title: '',
+      dataIndex: 'menuNumber',
+      key: 'menuNumber',
+    },
+    {
       title: 'Tea Type',
       dataIndex: 'type',
       key: 'type',

@@ -80,8 +80,8 @@ const FruitTea = () => {
     const columns = [
         {
             title: '',
-            dataIndex: [1, 2, 3],
-            // key: 'name',
+            dataIndex: 'menuNumber',
+            key: 'menuNumber',
         },
         {
             title: 'Tea Name',
