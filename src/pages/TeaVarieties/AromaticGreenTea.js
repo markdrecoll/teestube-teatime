@@ -2,9 +2,9 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import spiceAndChaiTeaData from '../../teaData/spiceAndChaiTeaData';
+import aromaticGreenTeaData from '../../teaData/aromaticGreenTeaData';
 
-const SpiceAndChaiTea = () => {
+const AromaticGreenTea = () => {
 
     // Columns of the table
     const columns = [
@@ -49,15 +49,15 @@ const SpiceAndChaiTea = () => {
             <div className="col-lg-10 col-md-10 offset-lg-1 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
-                    <h2>Chai-Tee's (von Ronnefeldt)</h2>
+                    <h2>Aromatisierter Grüntee</h2>
                 </div>
 
                 <Table
-                dataSource={spiceAndChaiTeaData? spiceAndChaiTeaData : ""}
+                dataSource={aromaticGreenTeaData? aromaticGreenTeaData : ""}
                 columns={columns}
-                rowKey={spiceAndChaiTeaData? spiceAndChaiTeaData.key : ""}
-                // pagination={{ pageSize: 12 }}
-                pagination={false}
+                rowKey={aromaticGreenTeaData? aromaticGreenTeaData.key : ""}
+                pagination={{ pageSize: 12 }}
+                // pagination={false}
                 size="small"
                 bordered="true"
                 scroll={{ x: 400 }}
@@ -67,4 +67,4 @@ const SpiceAndChaiTea = () => {
     );
 };
 
-export default SpiceAndChaiTea;
+export default AromaticGreenTea;

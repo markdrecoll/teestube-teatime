@@ -1,7 +1,7 @@
 Things to do:
 
+redo keys so they start 0 ALSO make number not string
 MAKE TRANSLATION BUTTON RERENDER (or force refresh) get table data again
-
 figure out antd table change default text for reset and ascending etc
 routing translations
 money api convert to USD?
@@ -17,6 +17,7 @@ Language change button on footer?
 Language change button changes?
 Purpose of first number on menus
 What category for other tea page names
+other tea pages, and how to handle krauter page
 
 Title?
 Description of website
