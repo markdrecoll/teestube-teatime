@@ -10,6 +10,8 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import BlackTea from './pages/TeaVarieties/BlackTea';
 import GreenTea from './pages/TeaVarieties/GreenTea';
+import AromaticBlackTea from './pages/TeaVarieties/AromaticBlackTea';
+import AromaticGreenTea from './pages/TeaVarieties/AromaticGreenTea';
 import FruitTea from './pages/TeaVarieties/FruitTea';
 import RooibuschHoneybuschTee from './pages/TeaVarieties/RooibuschHoneybuschTee';
 import Kräutermischungen from './pages/TeaVarieties/Kräutermischungen';
@@ -25,6 +27,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/black_tea" element={<BlackTea />} />
         <Route path="/green_tea" element={<GreenTea />} />
+        <Route path="/aromatic_blacktea" element={<AromaticBlackTea />} />
+        <Route path="/aromatic_greentea" element={<AromaticGreenTea />} />
         <Route path="/fruit_tea" element={<FruitTea />} />
         <Route path="/rooibusch_honeybusch" element={<RooibuschHoneybuschTee />} />
         <Route path="/krautermischungen" element={<Kräutermischungen />} />
