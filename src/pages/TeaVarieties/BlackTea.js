@@ -202,7 +202,7 @@ const BlackTea = () => {
                 </div>
 
                 <div className="text-center mb-3">
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
+                    <Button type="primary" size={"small"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienHimalaya)}>Indien Himalaya</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(ceylon)}>Ceylon</Button>
