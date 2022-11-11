@@ -15,14 +15,17 @@ const AromaticGreenTea = () => {
         },
         {
             title: t('Name'),
-            dataIndex: 'name',
+            dataIndex: 'name-description',
             key: 'name',
+            render: (text, record) => (
+                <span><b>{record.name}</b><br />{record.description}</span>
+            )
         },
-        {
-            title: t('Description'),
-            dataIndex: 'description',
-            key: 'description'
-        },
+        // {
+        //     title: t('Description'),
+        //     dataIndex: 'description',
+        //     key: 'description'
+        // },
         {
             title: t('50 Grams'),
             dataIndex: 'price_50g',

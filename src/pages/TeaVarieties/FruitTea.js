@@ -84,16 +84,18 @@ const FruitTea = () => {
             key: 'menuNumber',
         },
         {
-            title: 'Tea Name',
-            dataIndex: 'name',
+            title: t('Name'),
+            dataIndex: 'name-description',
             key: 'name',
-            ...getColumnSearchProps('name'),
+            render: (text, record) => (
+                <span><b>{record.name}</b><br />{record.description}</span>
+            )
         },
-        {
-            title: 'Description',
-            dataIndex: 'description',
-            key: 'description'
-        },
+        // {
+        //     title: 'Description',
+        //     dataIndex: 'description',
+        //     key: 'description'
+        // },
         {
             title: t('50 Grams'),
             dataIndex: 'price_50g',
