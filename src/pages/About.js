@@ -10,8 +10,8 @@ const About = () => {
           <div className="m-4">
           <Card style={{ height: 'auto' }}>
             <Card.Body>
-              <h1 className="about_us_text-h">{t("About Us")}</h1>
-              <h3 className="about_us_text-h">Tee-Freunde,</h3>
+              <h2 className="about_us_text-h">{t("About Us")}</h2>
+              <h4 className="about_us_text-h">Tee-Freunde,</h4>
               <p className="about_us_text-p">
                 Herzlich willkomen auf den Seiten des ältesten Tee-Fachgeschäftes in Mainz.
                 Die Teestube Teatime wurde im jarh 1981 an einem historisch bedeutsamen Platz (Karmeliterplatz) eröffnet.

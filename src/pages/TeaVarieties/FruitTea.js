@@ -91,11 +91,6 @@ const FruitTea = () => {
                 <span><b>{record.name}</b><br />{record.description}</span>
             )
         },
-        // {
-        //     title: 'Description',
-        //     dataIndex: 'description',
-        //     key: 'description'
-        // },
         {
             title: t('50 Grams'),
             dataIndex: 'price_50g',

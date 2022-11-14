@@ -17,7 +17,7 @@ function Menu() {
 						src={process.env.PUBLIC_URL + "/assets/images/logo_original.png"}
 						width="125"
 						height="64"
-						className="d-inline-block align-top"
+						// className="d-inline-block align-top"
 					/>{' '}
 					Teestube-Teatime
 				</Navbar.Brand>
@@ -26,15 +26,16 @@ function Menu() {
 					<Nav className="me-auto">
 					</Nav>
 					<Nav>
+						<Nav.Link href="/">{t("Home")}</Nav.Link>
 						<NavDropdown title={t("Tea Menu")}>
-							<NavDropdown.Item href="/black_tea">{t("Black Tea")}</NavDropdown.Item>
-							<NavDropdown.Item href="/green_tea">{t("Green Tea")}</NavDropdown.Item>
-							<NavDropdown.Item href="/aromatic_blacktea">Aromatisierter Schwarztee</NavDropdown.Item>
-							<NavDropdown.Item href="/aromatic_greentea">Aromatisierter Grüntee</NavDropdown.Item>
-							<NavDropdown.Item href="/fruit_tea">{t("Fruit Tea")}</NavDropdown.Item>
-							<NavDropdown.Item href="/rooibusch_honeybusch">Rooibuschtee & Honeybusch Südafrika</NavDropdown.Item>
-							<NavDropdown.Item href="/krautermischungen">Kräutermischungen</NavDropdown.Item>
-							<NavDropdown.Item href="/spice_and_chai_tea">{t("Spice & Chai Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/black_tea">{t("Black Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/green_tea">{t("Green Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/aromatic_blacktea">Aromatisierter Schwarztee</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/aromatic_greentea">Aromatisierter Grüntee</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/fruit_tea">{t("Fruit Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/rooibusch_honeybusch">Rooibuschtee & Honeybusch Südafrika</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/krautermischungen">Kräutermischungen</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="/spice_and_chai_tea">{t("Spice & Chai Tea")}</NavDropdown.Item>
 						</NavDropdown>
 						<Nav.Link href="/about">{t("About Us")}</Nav.Link>
 						<Nav.Link href="/gallery">{t("Gallery")}</Nav.Link>

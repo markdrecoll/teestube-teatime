@@ -52,7 +52,7 @@ const AromaticBlackTea = () => {
             <div className="col-lg-10 col-md-10 offset-lg-1 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
-                    <h2>Aromatisierter Schwarztee</h2>
+                    <h3>Aromatisierter Schwarztee</h3>
                 </div>
 
                 <Table
