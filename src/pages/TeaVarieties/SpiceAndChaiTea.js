@@ -23,12 +23,12 @@ const SpiceAndChaiTea = () => {
             dataIndex: 'description',
             key: 'description'
         },
-        {
-            title: t('50 Grams'),
-            dataIndex: 'price_50g',
-            key: 'price_50g',
-            render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
-        },
+        // {
+        //     title: t('50 Grams'),
+        //     dataIndex: 'price_50g',
+        //     key: 'price_50g',
+        //     render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
+        // },
         {
             title: t('100 Grams'),
             dataIndex: 'price_100g',
@@ -49,7 +49,7 @@ const SpiceAndChaiTea = () => {
             <div className="col-lg-10 col-md-10 offset-lg-1 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
-                    <h2>Chai-Tee's (von Ronnefeldt)</h2>
+                    <h3>Chai-Tee's (von Ronnefeldt)</h3>
                 </div>
 
                 <Table

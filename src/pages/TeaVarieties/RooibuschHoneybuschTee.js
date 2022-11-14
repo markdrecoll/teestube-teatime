@@ -15,13 +15,11 @@ const RooibuschHoneybuschTee = () => {
         },
         {
             title: t('Name'),
-            dataIndex: 'name',
+            dataIndex: 'name-description',
             key: 'name',
-        },
-        {
-            title: t('Description'),
-            dataIndex: 'description',
-            key: 'description'
+            render: (text, record) => (
+                <span><b>{record.name}</b><br />{record.description}</span>
+            )
         },
         {
             title: t('50 Grams'),
@@ -41,7 +39,7 @@ const RooibuschHoneybuschTee = () => {
             key: 'price_250g',
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
-    ]
+    ];
     
     return (
         <div>
@@ -49,7 +47,7 @@ const RooibuschHoneybuschTee = () => {
             <div className="col-lg-10 col-md-10 offset-lg-1 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
-                    <h2>Rooibuschtee(Massaitee) & Honeybusch Südafrika Teeinfre</h2>
+                    <h3>Rooibuschtee(Massaitee) & Honeybusch Südafrika Teeinfre</h3>
                 </div>
 
                 <Table

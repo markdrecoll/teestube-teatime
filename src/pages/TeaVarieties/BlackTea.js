@@ -79,58 +79,6 @@ const BlackTea = () => {
 
     // Columns of the table
     const columns = [
-        // {
-        //     title: 'Tea Type',
-        //     dataIndex: 'type',
-        //     key: 'type',
-        //     filters: [
-        //         {
-        //             text: 'Indien Assam',
-        //             value: 'Indien Assam'
-        //         },
-        //         {
-        //             text: 'Indien Darjeeling',
-        //             value: 'Indien Darjeeling'
-        //         },
-        //         {
-        //             text: 'Indien Himalaya',
-        //             value: 'Indien Himalaya'
-        //         },
-        //         {
-        //             text: 'Ceylon',
-        //             value: 'Ceylon'
-        //         },
-        //         {
-        //             text: 'Verschiedene Länder',
-        //             value: 'Verschiedene Länder'
-        //         },
-        //         {
-        //             text: 'Afrika',
-        //             value: 'Afrika'
-        //         },
-        //         {
-        //             text: 'Russland',
-        //             value: 'Russland'
-        //         },
-        //         {
-        //             text: 'England (Hauptbestandteil: Ceylon)',
-        //             value: 'England (Hauptbestandteil: Ceylon)'
-        //         },
-        //         {
-        //             text: 'Ostfriesland (enthält zu 90% Assam-Tee)',
-        //             value: 'Ostfriesland (enthält zu 90% Assam-Tee)'
-        //         },
-        //         {
-        //             text: 'Infree Tee',
-        //             value: 'Infree Tee'
-        //         },
-        //         {
-        //             text: 'China Schwarz-Tee',
-        //             value: 'China Schwarz-Tee'
-        //         }
-        //     ],
-        //     onFilter: (value, record) => record.type.indexOf(value) === 0,
-        // },
         {
             title: '',
             dataIndex: 'menuNumber',
@@ -139,14 +87,11 @@ const BlackTea = () => {
         },
         {
             title: t('Name'),
-            dataIndex: 'name',
+            dataIndex: 'name-description',
             key: 'name',
-            // ...getColumnSearchProps('name'),
-        },
-        {
-            title: t('Description'),
-            dataIndex: 'description',
-            key: 'description'
+            render: (text, record) => (
+                <span><b>{record.name}</b><br />{record.description}</span>
+            )
         },
         {
             title: t('50 Grams'),
@@ -198,7 +143,7 @@ const BlackTea = () => {
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
-                    <h2>Klassischer Schwarztee</h2>
+                    <h3>Klassischer Schwarztee</h3>
                 </div>
 
                 <div className="text-center mb-3">
