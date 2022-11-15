@@ -40,6 +40,7 @@ function Menu() {
 						<Nav.Link href="/about">{t("About Us")}</Nav.Link>
 						<Nav.Link href="/gallery">{t("Gallery")}</Nav.Link>
 						<Nav.Link href="/contact">{t("Contact")}</Nav.Link>
+						<Nav.Link href="/datenschutz">Datenschutz</Nav.Link>
 						{i18n.resolvedLanguage === 'de' &&
 							<NavDropdown title="Sprache">
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('de')}>Deutsch</NavDropdown.Item>
