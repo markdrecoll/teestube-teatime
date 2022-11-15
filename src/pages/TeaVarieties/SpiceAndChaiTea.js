@@ -15,13 +15,11 @@ const SpiceAndChaiTea = () => {
         },
         {
             title: t('Name'),
-            dataIndex: 'name',
+            dataIndex: 'name-description',
             key: 'name',
-        },
-        {
-            title: t('Description'),
-            dataIndex: 'description',
-            key: 'description'
+            render: (text, record) => (
+                <span><b>{record.name}</b><br />{record.description}</span>
+            )
         },
         // {
         //     title: t('50 Grams'),

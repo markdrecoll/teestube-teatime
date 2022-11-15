@@ -148,10 +148,10 @@ const BlackTea = () => {
 
                 <div className="text-center mb-3">
                     <Button type="primary" size={"small"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
+                    <Button type="primary" size={"small"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienHimalaya)}>Indien Himalaya</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(ceylon)}>Ceylon</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(verschiedeneLänder)}>Verschiedene Länder</Button>
+                    <Button className="btn btn-primary" size={"small"} onClick={() => handleClick(ceylon)}>Ceylon</Button>
+                    <Button className="btn btn-secondary" size={"small"} onClick={() => handleClick(verschiedeneLänder)}>Verschiedene Länder</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(afrika)}>Afrika</Button>
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(russland)}>Russland</Button>                 
                     <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(england)}>England (Hauptbestandteil: Ceylon)</Button>

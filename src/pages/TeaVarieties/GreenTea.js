@@ -163,6 +163,19 @@ const GreenTea = () => {
     }
   ]
 
+  const japanGruntee = greenTeaData.filter(tea => {return tea.type === 'Japan Grüntee'});
+  const chinaGruntee = greenTeaData.filter(tea => {return tea.type === 'China Grüntee'});
+  const chinaWeißtee = greenTeaData.filter(tea => {return tea.type === 'China weißtee'});
+  const taiwan = greenTeaData.filter(tea => {return tea.type === 'Formosa (Taiwan) Grüntee'});
+  const oolong = greenTeaData.filter(tea => {return tea.type === 'China Oolong-Tee (schwarzer Drachen, Halb fermentiert)'});
+  const verschiedeneLander = greenTeaData.filter(tea => {return tea.type === 'Verschiedene Länder Grüntee (Ronnefeldt)'});
+
+  const [currentTeaType, setCurrentTeaType] = useState(japanGruntee);
+
+  const handleClick = (teaType) => {
+      setCurrentTeaType(teaType);
+  }
+
   return (
     <div>
       <Menu />
@@ -172,11 +185,20 @@ const GreenTea = () => {
             <h3>GrünTee</h3>
         </div>
 
+        <div className="text-center mb-3">
+          <Button className="m-1" type="primary" size={"small"} onClick={() => handleClick(japanGruntee)}>Japan Grüntee</Button>
+          <Button className="m-1" type="primary" size={"small"} onClick={() => handleClick(chinaGruntee)}>China Grüntee</Button>
+          <Button className="m-1" type="primary" size={"small"} onClick={() => handleClick(chinaWeißtee)}>China weißtee</Button>
+          <Button className="m-1" type="primary" size={"small"} onClick={() => handleClick(taiwan)}>Formosa (Taiwan) Grüntee</Button>
+          <Button className="m-1" type="primary" size={"small"} onClick={() => handleClick(oolong)}>China Oolong-Tee (schwarzer Drachen, Halb fermentiert)</Button>
+          <Button className="m-1" type="primary" size={"small"} onClick={() => handleClick(verschiedeneLander)}>Verschiedene Länder Grüntee (Ronnefeldt)</Button>
+        </div>
+
         <Table
-          dataSource={greenTeaData}
+          dataSource={currentTeaType? currentTeaType : ""}
           columns={columns}
-          rowKey={greenTeaData.key}
-          pagination={{ pageSize: 10 }}
+          rowKey={currentTeaType? currentTeaType.key : ""}
+          pagination={false}
           size="small"
           bordered="true"
           scroll={{ x: 400 }}
