@@ -1,7 +1,7 @@
 import GoogleMapReact from 'google-map-react';
 import { EnvironmentTwoTone } from '@ant-design/icons';
 
-const MapDisplay = () => <h2><EnvironmentTwoTone /></h2>;
+const MapDisplay = () => <h3><EnvironmentTwoTone /></h3>;
 
 export default function SimpleMap(){
   const defaultProps = {
@@ -9,7 +9,7 @@ export default function SimpleMap(){
       lat: 50.00242350556172, 
       lng: 8.272054595464294
     },
-    zoom: 15
+    zoom: 17
   };
 
   return (

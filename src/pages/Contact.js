@@ -14,7 +14,7 @@ const Contact = () => {
       <Menu />
       <div className="row justify-content-md-center m-4">
         <div className="col-lg-5 col-md-6 col-12">
-          <Card style={{ height: '32rem' }}>
+          <Card style={{ height: '34rem' }}>
             <Card.Body>
               <Card.Title>Teestube</Card.Title>
               <Card.Text>
@@ -37,17 +37,16 @@ const Contact = () => {
                   <tr>
                     <td>{t("Monday")}</td>
                     <td>{t("10:00 AM")}</td>
-                    <td>{t("6:30 PM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Tuesday")}</td>
                     <td>{t("10:00 AM")}</td>
-                    <td>{t("6:30 PM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Wednesday")}</td>
-                    <td>{t("1:00 PM")}</td>
-                    <td>{t("6:30 PM")}</td>
+                    <td colSpan={2}>{t("Closed")}</td>
                   </tr>
                   <tr>
                     <td>{t("Thursday")}</td>
@@ -70,11 +69,12 @@ const Contact = () => {
                   </tr>
                 </tbody>
               </Table>
+              <p>Ab 1 Advent, wir sind für Sie bis 18.30 da.</p>
             </Card.Body>
           </Card>
         </div>
         <div className="col-lg-5 col-md-6 col-12">
-          <Card style={{ height: '32rem' }}>
+          <Card style={{ height: '34rem' }}>
             <Card.Body>
               <MapDisplay />
             </Card.Body>
