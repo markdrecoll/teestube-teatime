@@ -14,7 +14,7 @@ const About = () => {
               <h4 className="about_us_text-h">Tee-Freunde,</h4>
               <p className="about_us_text-p">
                 Herzlich willkomen auf den Seiten des ältesten Tee-Fachgeschäftes in Mainz.
-                Die Teestube Teatime wurde im jarh 1981 an einem historisch bedeutsamen Platz (Karmeliterplatz) eröffnet.
+                Die Teestube Teatime wurde im jahr 1981 an einem historisch bedeutsamen Platz (Karmeliterplatz) eröffnet.
                 Durch unsere langjährige Erfahrung finden Sie bei uns eine umfangreiche Teeauswahl aus allen bekannten
                 anbaugebieten der Welt. Sie erleben die Viefalt des Tees in all ihren Facetten. Alle unsere Teesorten
                 sind durch unsere Liebferanten rückstandskontrolliert.
