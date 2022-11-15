@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { Table } from "antd";
 import { t } from "i18next";
 
@@ -58,15 +59,14 @@ const Kräutermischungen = () => {
         }
     ]
 
-    let currentColumns = columns1;
+    const [currentColumns, setCurrentColumns] = useState(columns1);
 
-    const onPageChange = (page, pageSize) => {
-        console.log("page", page.current);
+    const onPageChange = (page) => {       
         if(page.current == 1){
-            currentColumns = columns1;
+            setCurrentColumns(columns1);
         }
         if(page.current == 2){
-            currentColumns = columns2;
+            setCurrentColumns(columns2);
         }
     }
     

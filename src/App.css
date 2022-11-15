@@ -87,3 +87,7 @@
   text-shadow: 0 2px 0 black;
   color:white;
 }
+
+.btn-success {
+  background-color:rgb(57, 181, 74);
+}
