@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
-import { Table, Input, Button, Space } from "antd";
+import Button from 'react-bootstrap/Button';
+import { Table, Input, Space } from "antd";
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 import { t } from "i18next";
@@ -147,17 +148,17 @@ const BlackTea = () => {
                 </div>
 
                 <div className="text-center mb-3">
-                    <Button type="primary" size={"small"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
-                    <Button type="primary" size={"small"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(indienHimalaya)}>Indien Himalaya</Button>
-                    <Button className="btn btn-primary" size={"small"} onClick={() => handleClick(ceylon)}>Ceylon</Button>
-                    <Button className="btn btn-secondary" size={"small"} onClick={() => handleClick(verschiedeneLänder)}>Verschiedene Länder</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(afrika)}>Afrika</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(russland)}>Russland</Button>                 
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(england)}>England (Hauptbestandteil: Ceylon)</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(ostfriesland)}>Ostfriesland (enthält zu 90% Assam-Tee)</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(infree)}>Infree Tee</Button>
-                    <Button className="teaTypeButtonStyle" size={"small"} onClick={() => handleClick(china)}>China Schwarz-Tee</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(indienAssamTeas)}>Indien Assam</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(indienDarjeelingTeas)}>Indien Darjeeling</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(indienHimalaya)}>Indien Himalaya</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(ceylon)}>Ceylon</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(verschiedeneLänder)}>Verschiedene Länder</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(afrika)}>Afrika</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(russland)}>Russland</Button>                 
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(england)}>England (Hauptbestandteil: Ceylon)</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(ostfriesland)}>Ostfriesland (enthält zu 90% Assam-Tee)</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(infree)}>Infree Tee</Button>
+                    <Button className="m-1" variant="success" size={"sm"} onClick={() => handleClick(china)}>China Schwarz-Tee</Button>
                 </div>
 
                 <Table
