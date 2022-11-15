@@ -1,6 +1,6 @@
 const spiceAndChaiTeaData = [
     {
-        // key: ,
+        key: 0,
         menuNumber: "CH1",
         name: "Chai",
         // price_50g: ,
@@ -10,7 +10,7 @@ const spiceAndChaiTeaData = [
         description: "Schwarzer-Tee (47%), Ingwer, Anis, schwarze Pfefferkörner, Nelken, Zimtstücken, Fenchel"
     },
     {
-        // key: ,
+        key: 1,
         menuNumber: "CH2",
         name: "Vanille Chai",
         // price_50g: ,
@@ -20,7 +20,7 @@ const spiceAndChaiTeaData = [
         description: "Schwarzer-Tee (Assam 51%), Ingwer, Zimt, Gewürznelken, Kardamon"
     },
     {
-        // key: ,
+        key: 2,
         menuNumber: "CH3",
         name: "Chai Ginger Orange",
         // price_50g: ,
@@ -30,7 +30,7 @@ const spiceAndChaiTeaData = [
         description: "Schwarzer-Tee (Niilgiri 57%), Ingwer, Nelke, Orangenschale, Zimtstücken, Kardamon, geröstete Zichorienwurzeln, Schwarze Pfefferkörner, Ringelblumenblüten, Aroma"
     },
     {
-        // key: ,
+        key: 3,
         menuNumber: "CH4",
         name: "Red Chili Chai",
         // price_50g: ,
@@ -40,7 +40,7 @@ const spiceAndChaiTeaData = [
         description: "Schwarzer-Tee (Assam 57%), Nelken, Kakaobohnen, Zimtstücke, Kardamon, Chili, geröstete Zichorienwurzel, schwarze Pfefferkörner, Aroma"
     },
     {
-        // key: ,
+        key: 4,
         menuNumber: "CH5",
         name: "Morgentau-Chai",
         // price_50g: ,

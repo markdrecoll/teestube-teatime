@@ -1,6 +1,6 @@
 const greenTeaData = [
     {
-        key: "1",
+        key: "0",
         menuNumber: "39",
         name: "Japan Sencha BIO",
         price_50g: 5.20,
@@ -10,7 +10,7 @@ const greenTeaData = [
         description: "Grüner, großblättriger Japan-Tee, Spitzenqualität"
     },
     {
-        key: "2",
+        key: "1",
         menuNumber: "40/1",
         name: "Japan Genmaicha",
         price_50g: 3.05,
@@ -20,7 +20,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "3",
+        key: "2",
         menuNumber: "40/2",
         name: "Japan Kukicha BIO",
         price_50g: 5.70,
@@ -30,7 +30,7 @@ const greenTeaData = [
         description: "Eine typische Japanische Tee-Spezialität, langes, flaches, hell- und dunkelgrüne Blatt, wenig teein"
     },
     {
-        key: "4",
+        key: "3",
         menuNumber: "40/3",
         name: "Bancha (Japan type)",
         price_50g: 3.10,
@@ -40,7 +40,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "5",
+        key: "4",
         menuNumber: "40/5",
         name: "Matcha BIO",
         // price_50g: ,
@@ -51,7 +51,7 @@ const greenTeaData = [
         // original text was 30 gr in Dose 39,00
     },
     {
-        key: "6",
+        key: "5",
         menuNumber: "41",
         name: "Chun Mee",
         price_50g: 2.25,
@@ -61,7 +61,7 @@ const greenTeaData = [
         description: "Fein-herber Geschmack, gelblicher Aufgu0, besonders anregend"
     },
     {
-        key: "7",
+        key: "6",
         menuNumber: "42",
         name: "Gunpowder",
         price_50g: 2.70,
@@ -71,7 +71,7 @@ const greenTeaData = [
         description: "Kugelförmig eingerolltes Blatt, heller Aufguß, sehr anregend, mehrmals aufgießen"
     },
     {
-        key: "8",
+        key: "7",
         menuNumber: "43",
         name: "Tempel of Heaven, Bio",
         price_50g: 3.00,
@@ -81,7 +81,7 @@ const greenTeaData = [
         description: "Berühmt als der Beste aller grünen Tees, sehr anregend, mehrmals Aufgießen"
     },
     {
-        key: "9",
+        key: "8",
         menuNumber: "45/2",
         name: "Pu Erh Tee grün (gepreßter Pu Erh Tee)",
         // price_50g: ,
@@ -91,7 +91,7 @@ const greenTeaData = [
         description: "Stück 1,30"
     },
     {
-        key: "10",
+        key: "9",
         menuNumber: "45/4",
         name: "Greenfield light teein frei",
         price_50g: 3.70,
@@ -101,7 +101,7 @@ const greenTeaData = [
         description: "Sympathischer China Sencha, reine Tasse, angenehmer Geschmack"
     },
     {
-        key: "11",
+        key: "10",
         menuNumber: "45/5",
         name: "China Grün Yunnan",
         price_50g: 3.25,
@@ -111,7 +111,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "12",
+        key: "11",
         menuNumber: "40/4",
         name: "Gyokuro Hikari(Japan type)",
         price_50g: 13.50,
@@ -121,7 +121,7 @@ const greenTeaData = [
         description: "Der erlesenste Sencha, im Schattenhaus gezogen, tiefgrünes Blatt"
     },
     {
-        key: "13",
+        key: "12",
         menuNumber: "53",
         name: "Jasmin Tee",
         price_50g: 2.60,
@@ -131,7 +131,7 @@ const greenTeaData = [
         description: "Halbfermentierter Tee mit duftenden Jasmin Blüten"
     },
     {
-        key: "14",
+        key: "13",
         menuNumber: "53/1",
         name: "Jasmin the Best",
         price_50g: 3.55,
@@ -141,7 +141,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "15",
+        key: "14",
         menuNumber: "53/2",
         name: "Jasmin Xian Yu (Ronnefeldt)",
         // price_50g: ,
@@ -151,7 +151,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "16",
+        key: "15",
         menuNumber: "45",
         name: "Pai Mu Tan BIO",
         price_50g: 5.70,
@@ -161,7 +161,7 @@ const greenTeaData = [
         description: "Feinste Blattspitzen, so gut wie Teerose"
     },
     {
-        key: "17",
+        key: "16",
         menuNumber: "45/3",
         name: "China Silverneedle BIO",
         price_50g: 12.35,
@@ -171,7 +171,7 @@ const greenTeaData = [
         description: "Erste Grade, ein Blattsprossen-Tee der besten Qualität, von Hand Gepflückt, helle Tasse, zartes Aroma"
     },
     {
-        key: "18",
+        key: "17",
         menuNumber: "45/8",
         name: "Weißer Mangotraum (Ronnefeldt)",
         // price_50g: ,
@@ -181,7 +181,7 @@ const greenTeaData = [
         description: "Pai Mu Tan mit Mango-Bergamotte-Geschmack, ein leichter und duftiger Tee, der wenig Teein enthält"
     },
     {
-        key: "19",
+        key: "18",
         menuNumber: "45/6",
         name: "Formosa Pouchong",
         price_50g: 9.90,
@@ -191,7 +191,7 @@ const greenTeaData = [
         description: "Ein sehr milder grüner Tee mit einer phantastischen süße, grüner Oolong"
     },
     {
-        key: "20",
+        key: "19",
         menuNumber: "45/7",
         name: "Formosa Pi La Chun",
         price_50g: 5.25,
@@ -201,7 +201,7 @@ const greenTeaData = [
         description: "Eine der großen Grüntee-Spezialitäten – aufwändig hergestelltes, feindrahtiges Blatt von blumiger Eleganz"
     },
     {
-        key: "21",
+        key: "20",
         menuNumber: "47",
         name: "Formosa Fine Oolong",
         price_50g: 2.75,
@@ -211,7 +211,7 @@ const greenTeaData = [
         description: "Zarter Oolong-Tee, hell in der Tasse, schwarzer Oolong"
     },
     {
-        key: "22",
+        key: "21",
         menuNumber: "46",
         name: "TitKoon Yum",
         price_50g: 2.85,
@@ -221,7 +221,7 @@ const greenTeaData = [
         description: "Belebender Oolng-Tee, sehr würzig"
     },
     {
-        key: "23",
+        key: "22",
         menuNumber: "48",
         name: "Kwai Flower",
         price_50g: 3.20,
@@ -231,7 +231,7 @@ const greenTeaData = [
         description: "Großblätriger China-Tee, dezenter Geschmack, erinnert an Pfirsich"
     },
     {
-        key: "24",
+        key: "23",
         menuNumber: "60",
         name: "Orangenblüten Oolong",
         price_50g: 3.00,
@@ -241,7 +241,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "25",
+        key: "24",
         menuNumber: "GTR1",
         name: "Ceylon Watawalla Spezial FOP, BIO",
         // price_50g: ,
@@ -251,7 +251,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "26",
+        key: "25",
         menuNumber: "GTR2",
         name: "Assam Khongea TGFOP",
         // price_50g: ,
@@ -261,7 +261,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "27",
+        key: "26",
         menuNumber: "GTR3",
         name: "Darjeeling North Tukvar TGFOP, BIO",
         // price_50g: ,
@@ -271,7 +271,7 @@ const greenTeaData = [
         // description: ""
     },
     {
-        key: "28",
+        key: "27",
         menuNumber: "GTR4",
         name: "China Keemun Con",
         // price_50g: ,

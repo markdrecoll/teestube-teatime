@@ -1,6 +1,6 @@
 const aromaticBlackTeaData = [
     {
-        key: "",
+        key: "0",
         menuNumber: "57",
         name: "Arabische Düfte",
         price_50g: 2.90,
@@ -10,7 +10,7 @@ const aromaticBlackTeaData = [
         description: "Schwarz u. grüner Tee aus China, Rosen-/Sonnenblumenblüten, Aroma,"
     },
     {
-        key: "",
+        key: "1",
         menuNumber: "112",
         name: "Adventstee (natürlicher Gewürztee)",
         price_50g: 3.00,
@@ -20,7 +20,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "2",
         menuNumber: "61",
         name: "Amaretto",
         price_50g: 2.90,
@@ -30,7 +30,7 @@ const aromaticBlackTeaData = [
         description: "Mit dem Geschmack der Bittermandel"
     },
     {
-        key: "",
+        key: "3",
         menuNumber: "62",
         name: "Anis",
         price_50g: 2.75,
@@ -40,7 +40,7 @@ const aromaticBlackTeaData = [
         description: "Mit Anissamen, Aroma"
     },
     {
-        key: "",
+        key: "4",
         menuNumber: "70",
         name: "Earl Grey",
         price_50g: 2.80,
@@ -50,7 +50,7 @@ const aromaticBlackTeaData = [
         description: "Mit exquisiter Bergamotte"
     },
     {
-        key: "",
+        key: "5",
         menuNumber: "70/2",
         name: "Earl Grey TIPPY Golden (Ronnefeldt)",
         // price_50g: ,
@@ -60,7 +60,7 @@ const aromaticBlackTeaData = [
         description: "Darjeeling, duftig-zarter Darjeeling, mit Kostbarem Aroma"
     },
     {
-        key: "",
+        key: "6",
         menuNumber: "70/3",
         name: "Earl Grey Famous (Ronnefeldt)",
         // price_50g: ,
@@ -70,7 +70,7 @@ const aromaticBlackTeaData = [
         description: "Ein kühler frischer Hauch des Bergamotte Aromas über ausgewähltem Tee aus Indien, eine extravagante Komposition, mit Sonnblumenblüten"
     },
     {
-        key: "",
+        key: "7",
         menuNumber: "71",
         name: "Earl Grey Blue Star",
         price_50g: 2.90,
@@ -80,7 +80,7 @@ const aromaticBlackTeaData = [
         description: "Mit exquisiter Bergamotte und Blumenblüten"
     },
     {
-        key: "",
+        key: "8",
         menuNumber: "71/101",
         name: "Lady Grey mit Orangenschalen",
         price_50g: 2.90,
@@ -90,7 +90,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "9",
         menuNumber: "72",
         name: "English Karamel",
         price_50g: 2.80,
@@ -100,7 +100,7 @@ const aromaticBlackTeaData = [
         description: "Mit leichte Mocca-Touch"
     },
     {
-        key: "",
+        key: "10",
         menuNumber: "118",
         name: "Erdbeer-Sahne",
         price_50g: 2.80,
@@ -110,7 +110,7 @@ const aromaticBlackTeaData = [
         description: "Mit Erdbeerblättern"
     },
     {
-        key: "",
+        key: "11",
         menuNumber: "83",
         name: "Herrentoffe (Ronnefeldt)",
         // price_50g: ,
@@ -120,7 +120,7 @@ const aromaticBlackTeaData = [
         description: "Cremig, leicht-herber Toffe-Geschmack"
     },
     {
-        key: "",
+        key: "12",
         menuNumber: "81",
         name: "Ingwer mit Ingwerwurzeln",
         price_50g: 2.80,
@@ -130,7 +130,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "13",
         menuNumber: "82",
         name: "Irish Cream (Ronnefeldt)",
         // price_50g: ,
@@ -140,7 +140,7 @@ const aromaticBlackTeaData = [
         description: "Typisch irisch Whiskey-Aroma mit einem Hauch Kakao"
     },
     {
-        key: "",
+        key: "14",
         menuNumber: "79",
         name: "Johannisbeere mit Blättern",
         price_50g: 2.80,
@@ -150,7 +150,7 @@ const aromaticBlackTeaData = [
         description: "Gewürznelken, Orangenschalen, Ingwerstücke und Zimtsterne"
     },
     {
-        key: "",
+        key: "15",
         menuNumber: "80",
         name: "Kokos mit Kokosraspeln",
         price_50g: 2.80,
@@ -160,7 +160,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "16",
         menuNumber: "84",
         name: "Lemon mit Schalenstücken",
         price_50g: 2.80,
@@ -170,7 +170,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "17",
         menuNumber: "69",
         name: "Mainzer Mischung",
         price_50g: 2.80,
@@ -180,7 +180,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "18",
         menuNumber: "87",
         name: "Mandel mit Mandelstücken",
         price_50g: 2.80,
@@ -190,7 +190,7 @@ const aromaticBlackTeaData = [
         description: "Kirsch-Sahne, Korinthen, Hibiskus, Hagebuttenschalen"
     },
     {
-        key: "",
+        key: "19",
         menuNumber: "85",
         name: "Mango",
         price_50g: 2.80,
@@ -200,7 +200,7 @@ const aromaticBlackTeaData = [
         description: "Mit Ringelblumenblüten, herrlicher Geschmack"
     },
     {
-        key: "",
+        key: "20",
         menuNumber: "56",
         name: "Mönchlein Tee",
         price_50g: 2.95,
@@ -210,7 +210,7 @@ const aromaticBlackTeaData = [
         description: "Ein schwarzer und grüner Tee mit Japan Kirsch-Rosen Geschmack"
     },
     {
-        key: "",
+        key: "21",
         menuNumber: "110",
         name: "Naranquilla",
         price_50g: 2.80,
@@ -220,7 +220,7 @@ const aromaticBlackTeaData = [
         description: "Kleine. Spanische Blutorange mit Saflorblüten"
     },
     {
-        key: "",
+        key: "22",
         menuNumber: "63",
         name: "Nizza-Sahne (Ronnefeldt)",
         // price_50g: ,
@@ -230,7 +230,7 @@ const aromaticBlackTeaData = [
         description: "Kornblumen-, Färberdistelblüten"
     },
     {
-        key: "",
+        key: "23",
         menuNumber: "91",
         name: "Ostertee",
         price_50g: 2.80,
@@ -240,7 +240,7 @@ const aromaticBlackTeaData = [
         description: "Mit Sonnenblumen-u. Hibiskusblüten, blaue Malve"
     },
     {
-        key: "",
+        key: "24",
         menuNumber: "92",
         name: "Passionfrucht",
         price_50g: 2.80,
@@ -250,7 +250,7 @@ const aromaticBlackTeaData = [
         description: "Mit Klatschmohnblüten und dem Aroma der Maracuja"
     },
     {
-        key: "",
+        key: "25",
         menuNumber: "89",
         name: "Pfirsich mit Sonnenblumenblüten",
         price_50g: 2.80,
@@ -260,7 +260,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "26",
         menuNumber: "90",
         name: "Pflaumen",
         price_50g: 2.80,
@@ -270,7 +270,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "27",
         menuNumber: "59",
         name: "Rose",
         price_50g: 3.00,
@@ -280,7 +280,7 @@ const aromaticBlackTeaData = [
         description: "Ein schwarzer Tee mit Rosenblüten, Aroma"
     },
     {
-        key: "",
+        key: "28",
         menuNumber: "98",
         name: "Sahne Karamel",
         price_50g: 2.80,
@@ -290,7 +290,7 @@ const aromaticBlackTeaData = [
         description: "Mit Karamellstücken, weicher, feiner, Karamellgeschmack"
     },
     {
-        key: "",
+        key: "29",
         menuNumber: "109",
         name: "Samba Pa Tea",
         price_50g: 2.95,
@@ -300,7 +300,7 @@ const aromaticBlackTeaData = [
         description: "Sonnenblumenblüten mit Kaktusblüten und, früchtig"
     },
     {
-        key: "",
+        key: "30",
         menuNumber: "100",
         name: "Orange Spice Imperial",
         price_50g: 2.80,
@@ -310,7 +310,7 @@ const aromaticBlackTeaData = [
         description: "Gewürztee mit Nelken, Zimt, Vanille, abgerundet mit Orange und Schalen"
     },
     {
-        key: "",
+        key: "31",
         menuNumber: "101",
         name: "Sweet Orange mit Schalenstücken",
         price_50g: 2.80,
@@ -320,7 +320,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "32",
         menuNumber: "120",
         name: "Tropfenfeuer mit Pfingstrosenblüten",
         price_50g: 2.80,
@@ -330,7 +330,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "33",
         menuNumber: "130",
         name: "Tropic Spezial (Ronnefeldt)",
         // price_50g: ,
@@ -340,7 +340,7 @@ const aromaticBlackTeaData = [
         description: "Der exklusive, feine Geschmack e Lulofrucht - zwischen Erdbeere und Ananas"
     },
     {
-        key: "",
+        key: "34",
         menuNumber: "103",
         name: "Vanille mit Vanillestücken",
         price_50g: 2.80,
@@ -350,7 +350,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "35",
         menuNumber: "66",
         name: "Waldbeere",
         price_50g: 2.80,
@@ -360,7 +360,7 @@ const aromaticBlackTeaData = [
         description: "Heidelbeer-Erdbeere-Himbeere Geschmack; mit Holunderbeeren, Brombeerblätter, Aroma"
     },
     {
-        key: "",
+        key: "36",
         menuNumber: "123",
         name: "Weihnachtstee",
         price_50g: 2.80,
@@ -370,7 +370,7 @@ const aromaticBlackTeaData = [
         description: "Zimt, Vanille, Ingwer, Lemone, Nelken, Naturrum, Manderinen, Orangen, Orangenschalen"
     },
     {
-        key: "",
+        key: "37",
         menuNumber: "74",
         name: "White Star",
         price_50g: 2.80,
@@ -380,7 +380,7 @@ const aromaticBlackTeaData = [
         description: "Mit Kokosraspeln, Pfingstrosenblüten und Vanilleschoten"
     },
     {
-        key: "",
+        key: "38",
         menuNumber: "113",
         name: "Wintermärchen (Ronnefeldt)",
         // price_50g: ,
@@ -390,7 +390,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "39",
         menuNumber: "105",
         name: "Wildkirsch",
         price_50g: 2.85,
@@ -400,7 +400,7 @@ const aromaticBlackTeaData = [
         description: "Rosenblüten, Gewürze und Orangenschalen"
     },
     {
-        key: "",
+        key: "40",
         menuNumber: "77",
         name: "Zaubervogel",
         price_50g: 2.85,
@@ -410,7 +410,7 @@ const aromaticBlackTeaData = [
         description: "Korinthen, Mangostücke, Papaya, Rosenblüten, Kornblumenblüten"
     },
     {
-        key: "",
+        key: "41",
         menuNumber: "106",
         name: "Zimt mit Zimtrinde",
         price_50g: 2.80,
