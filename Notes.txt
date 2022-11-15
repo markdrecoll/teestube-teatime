@@ -1,8 +1,5 @@
 Things to do:
 
-add captions for images
-krauter page, make the second page not have 50 and 250
-redo keys so they start 0 ALSO make number not string
 MAKE TRANSLATION BUTTON RERENDER (or force refresh) get table data again
 figure out antd table change default text for reset and ascending etc
 routing translations
