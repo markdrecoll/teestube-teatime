@@ -26,8 +26,10 @@ const Contact = () => {
                 <p className="m-0">Christofsstr. 11,AM Karmeliterplatz 55116 Mainz</p>
                 <p className="m-0 fw-bold">{t("Phone")}/Fax:</p>
                 <p className="m-0">{t("companyPhoneNumber")}</p>
+                <p className="mt-4 fw-bold text-center text-success">Ab 1 Advent, wir sind für Sie bis 18.30 da.</p>
               </Card.Text>
-              <Table size="sm">
+              
+              <Table size="sm" className="m-0">
                 <thead>
                   <tr>
                     <th colSpan={3}>{t("Hours of Operation")}</th>
@@ -69,7 +71,6 @@ const Contact = () => {
                   </tr>
                 </tbody>
               </Table>
-              <p>Ab 1 Advent, wir sind für Sie bis 18.30 da.</p>
             </Card.Body>
           </Card>
         </div>
