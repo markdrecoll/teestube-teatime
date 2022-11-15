@@ -7,7 +7,7 @@ import kräutermischungenData from '../../teaData/kräutermischungenData';
 const Kräutermischungen = () => {
 
     // Columns of the table
-    const columns = [
+    const columns1 = [
         {
             title: '',
             dataIndex: 'menuNumber',
@@ -40,6 +40,35 @@ const Kräutermischungen = () => {
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
     ]
+
+    const columns2 = [
+        {
+            title: t('Name'),
+            dataIndex: 'name-description',
+            key: 'name',
+            render: (text, record) => (
+                <span><b>{record.name}</b><br />{record.description}</span>
+            )
+        },
+        {
+            title: t('100 Grams'),
+            dataIndex: 'price_100g',
+            key: 'price_100g',
+            render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
+        }
+    ]
+
+    let currentColumns = columns1;
+
+    const onPageChange = (page, pageSize) => {
+        console.log("page", page.current);
+        if(page.current == 1){
+            currentColumns = columns1;
+        }
+        if(page.current == 2){
+            currentColumns = columns2;
+        }
+    }
     
     return (
         <div>
@@ -52,13 +81,14 @@ const Kräutermischungen = () => {
 
                 <Table
                 dataSource={kräutermischungenData? kräutermischungenData : ""}
-                columns={columns}
+                columns={currentColumns}
                 rowKey={kräutermischungenData? kräutermischungenData.key : ""}
                 pagination={{ pageSize: 11 }}
                 // pagination={false}
                 size="small"
                 bordered="true"
                 scroll={{ x: 400 }}
+                onChange={onPageChange}
                 />
             </div>
         </div>

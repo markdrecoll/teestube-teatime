@@ -1,6 +1,6 @@
 const aromaticBlackTeaData = [
     {
-        key: "",
+        key: "0",
         menuNumber: "SG8",
         name: "Acht Schätze des Shaolin",
         price_50g: 2.80,
@@ -10,7 +10,7 @@ const aromaticBlackTeaData = [
         description: "Erdbeer-Ananas-Geschmack, China-Sencha, Gunpowder, Mini Tuo Tea, Chunmee, Pai Mu Tan, Lung ching, Pi Lo Chun, Kandierte Ananasstücke, Erdbeerstücke, Sonnenblumenblüten, Aroma"
     },
     {
-        key: "",
+        key: "1",
         menuNumber: "SG5",
         name: "Buddha ́s kleins Geheimnis",
         price_50g: 2.80,
@@ -20,7 +20,7 @@ const aromaticBlackTeaData = [
         description: "Pfirsich-Jasmin-Geschmack, weißer Tee, China Mao Feng, Grüntee China-Quangxi, Jasmin Perls, weiße Hibiskusblüten, Aroma"
     },
     {
-        key: "",
+        key: "2",
         menuNumber: "SG1",
         name: "Earl Grey mit exquisiter Bergamotte",
         price_50g: 2.80,
@@ -30,7 +30,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "3",
         menuNumber: "SG12",
         name: "Ewiges Leben",
         price_50g: 2.80,
@@ -40,7 +40,7 @@ const aromaticBlackTeaData = [
         description: "Sencha, Ming Mee, Weißer Tee, Gunpowder, Wu Lu, Jasmin, Kornblumenblüten, rote u. schwarze Johanes Blüten, Ginseng Wurzel, Aprikosenstücke"
     },
     {
-        key: "",
+        key: "4",
         menuNumber: "SG16",
         name: "Frühlingstraum",
         price_50g: 2.80,
@@ -50,7 +50,7 @@ const aromaticBlackTeaData = [
         description: "Mit Kornblumen- und Sonnenblumenblüten, Aprikose Geschmack"
     },
     {
-        key: "",
+        key: "5",
         menuNumber: "SG29",
         name: "Ingwer-Zitrone (Ronnefeldt)",
         // price_50g: ,
@@ -60,7 +60,7 @@ const aromaticBlackTeaData = [
         description: "Eine Mischung aus Grünem Tee mit Ingwer und Zitronengeschmack"
     },
     {
-        key: "",
+        key: "6",
         menuNumber: "SG13",
         name: "Kirschblüte",
         price_50g: 2.80,
@@ -70,7 +70,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "7",
         menuNumber: "SG11",
         name: "Kokos mit Kokosraspeln",
         price_50g: 2.80,
@@ -80,7 +80,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "8",
         menuNumber: "SG10",
         name: "Lemon mit Zitronenschalen",
         price_50g: 2.80,
@@ -90,7 +90,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "9",
         menuNumber: "SG26",
         name: "Mainzer Mischung",
         price_50g: 2.80,
@@ -100,7 +100,7 @@ const aromaticBlackTeaData = [
         description: "Hagebutte, Hibiskus, fruchtig, sahnig, cremig, weich in Geschmack"
     },
     {
-        key: "",
+        key: "10",
         menuNumber: "SG2",
         name: "Mango mit Ringelblumenblüten",
         price_50g: 2.80,
@@ -110,7 +110,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "11",
         menuNumber: "SG17",
         name: "Morgentau (Ronnefeldt)",
         // price_50g: ,
@@ -120,7 +120,7 @@ const aromaticBlackTeaData = [
         description: "Mit Mango-, Lulo-, Bergamotte Aroma, Sonnenblumen-, Kornblumen- u. Rosenblüten"
     },
     {
-        key: "",
+        key: "12",
         menuNumber: "SG9",
         name: "Orangentee mit Orangenschalen",
         price_50g: 2.80,
@@ -130,7 +130,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "13",
         menuNumber: "SG14",
         name: "Pfirsich mit Sonnenblumenblüten",
         price_50g: 2.80,
@@ -140,7 +140,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "14",
         menuNumber: "SG7",
         name: "Tautropfen (Ronnefeldt)",
         // price_50g: ,
@@ -150,7 +150,7 @@ const aromaticBlackTeaData = [
         description: "Von Ananas bis Erdbeere reicht der Fruchtgeschmack der Naranquilla, Rosen-Orangenblüten"
     },
     {
-        key: "",
+        key: "15",
         menuNumber: "SG4",
         name: "Vanille mit Vanillstücken",
         price_50g: 2.80,
@@ -160,7 +160,7 @@ const aromaticBlackTeaData = [
         // description: ""
     },
     {
-        key: "",
+        key: "16",
         menuNumber: "SG15",
         name: "Waldbeer",
         price_50g: 2.80,
@@ -170,7 +170,7 @@ const aromaticBlackTeaData = [
         description: "Holunderbeeren, Heidelbeerblätter, Erdbeeren"
     },
     {
-        key: "",
+        key: "17",
         menuNumber: "SG24",
         name: "Zabervogel",
         price_50g: 2.80,

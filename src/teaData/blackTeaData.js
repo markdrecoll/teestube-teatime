@@ -1,6 +1,6 @@
 const blackTeaData = [
     {
-        key: "1",
+        key: "0",
         menuNumber: "1",
         name: "Assam BOP CTC",
         price_50g: 2.30,
@@ -10,7 +10,7 @@ const blackTeaData = [
         description: "Schwerer, dunkler Brocken-Tee, gut mit Sahne zu trinken"
     },
     {
-        key: "2",
+        key: "1",
         menuNumber: "2",
         name: "Assam FOP",
         price_50g: 2.65,
@@ -20,7 +20,7 @@ const blackTeaData = [
         description: "Gehaltvoller Blatt-Tee für jede Tageszeit"
     },
     {
-        key: "3",
+        key: "2",
         menuNumber: "3",
         name: "Assam FBOP(Bazaloni)",
         price_50g: 2.75,
@@ -30,7 +30,7 @@ const blackTeaData = [
         description: "Dunkel-Ziehender Tee, aus bester Pflückungsperiode"
     },
     {
-        key: "4",
+        key: "3",
         menuNumber: "4",
         name: "Assam Malty TGFOP",
         price_50g: 3.85,
@@ -40,7 +40,7 @@ const blackTeaData = [
         description: "Herren Tee, dunkle Tasse malziger Geschmack"
     },
     {
-        key: "5",
+        key: "4",
         menuNumber: "4.1",
         name: "Assam Mokalbari TGFOP",
         price_50g: 4.25,
@@ -50,7 +50,7 @@ const blackTeaData = [
         description: "Kräftig/malziger golden tippy-Assam-Blatt-Tee aus der Second Flush periode vom Mokalbari Garten"
     },
     {
-        key: "6",
+        key: "5",
         menuNumber: "4.2",
         name: "Tippy Assam(Ronnefeldt)",
         // price_50g: ,
@@ -60,7 +60,7 @@ const blackTeaData = [
         description: "Malzig, würzig, aber durch die Blattspitzen auch durchaus weich"
     },
     {
-        key: "7",
+        key: "6",
         menuNumber: "5",
         name: "Assam Goldspitzen FTGFOP",
         price_50g: 4.10,
@@ -70,7 +70,7 @@ const blackTeaData = [
         description: "Vorzüglicher Assam Tee, mit vielen Goldspitzen"
     },
     {
-        key: "8",
+        key: "7",
         menuNumber: "6",
         name: "Darjeeling OP Langview",
         price_50g: 3.30,
@@ -80,7 +80,7 @@ const blackTeaData = [
         description: "Milder, blumiger Darjeeling Tee"
     },
     {
-        key: "9",
+        key: "8",
         menuNumber: "6.1",
         name: "Darjeeling First/Second flush OP",
         price_50g: 3.70,
@@ -90,7 +90,7 @@ const blackTeaData = [
         description: "Eine Mischung feinster First Flush u. kraftvoller Second Flush Darjeeling, herzhaft/blumig"
     },
     {
-        key: "10",
+        key: "9",
         menuNumber: "6.2",
         name: "Darjeeling TGFOP Badamtaminbetween",
         price_50g: 3.70,
@@ -100,7 +100,7 @@ const blackTeaData = [
         description: "Würzig-spritziges Aroma, geerntet zwischen der 1. Und 2. Pflückung"
     },
     {
-        key: "11",
+        key: "10",
         menuNumber: "6.3",
         name: "Spring Darjeeling FTGFOP(Ronnefeldt)",
         // price_50g: ,
@@ -110,7 +110,7 @@ const blackTeaData = [
         description: "Frühjahr, unvergleichlich zarter, blumiger Spitzentee, wird nur im Frühjahr an den Südhängen des Himalajas geerntet"
     },
     {
-        key: "12",
+        key: "11",
         menuNumber: "7",
         name: "Darjeeling GFOP Autumnal",
         price_50g: 3.70,
@@ -120,7 +120,7 @@ const blackTeaData = [
         description: "Typischer Herbst Darjeeling, leicht, angenehm"
     },
     {
-        key: "13",
+        key: "12",
         menuNumber: "9",
         name: "Darjeeling TGFOP Margrets Hope",
         price_50g: 3.85,
@@ -130,7 +130,7 @@ const blackTeaData = [
         description: "Blatt Tee aus 2. Pflückungsperiode, abgerundeter Geschmack"
     },
     {
-        key: "14",
+        key: "13",
         menuNumber: "10",
         name: "Darjeeling GFOP first flush Ambootia",
         price_50g: 5.10,
@@ -140,7 +140,7 @@ const blackTeaData = [
         description: "Zarter Frühjahrs-Tee von bester Qualität, blumig, angenehm duftend"
     },
     {
-        key: "15",
+        key: "14",
         menuNumber: "11",
         name: "Darjeeling FTGFOP first Flush Orange-Valley",
         price_50g: 6.30,
@@ -150,7 +150,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "16",
+        key: "15",
         menuNumber: "11.1",
         name: "DarjeelingFTGFOP First Flush Namring",
         price_50g: 8.35,
@@ -160,7 +160,7 @@ const blackTeaData = [
         description: "Vollblumiger, spritzig-herber Frühlings-Darjeeling der Spitzenklasse"
     },
     {
-        key: "17",
+        key: "16",
         menuNumber: "FT",
         name: "Flugtee Darjeeling Saisonal Snowview",
         price_50g: 6.95,
@@ -170,7 +170,7 @@ const blackTeaData = [
         description: "Tolle Frische, spritziger Frühlings-Darjeeling, ca. von März bis Juni"
     },
     {
-        key: "18",
+        key: "17",
         // menuNumber: "",
         name: "Darjeeling-Teeaktion, Schadstoffkontrolliert",
         // price_50g: ,
@@ -180,7 +180,7 @@ const blackTeaData = [
         description: "500 gr 22,00 €"
     },
     {
-        key: "19",
+        key: "18",
         menuNumber: "12",
         name: "Dooars",
         price_50g: 2.45,
@@ -190,7 +190,7 @@ const blackTeaData = [
         description: "Südindischer Blatt-Tee, angenehmes Aroma"
     },
     {
-        key: "20",
+        key: "19",
         menuNumber: "13",
         name: "Golden Nepal GFOP",
         price_50g: 3.30,
@@ -200,7 +200,7 @@ const blackTeaData = [
         description: "Ausgeprägter Hochland-Tee, kräftiger als der Nachbar Darjeeling"
     },
     {
-        key: "21",
+        key: "20",
         menuNumber: "13.1",
         name: "Sikkim FTGFOP First Flush",
         price_50g: 4.25,
@@ -210,7 +210,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "22",
+        key: "21",
         menuNumber: "13.2",
         name: "Golden Nepal TGFOP (Ronnefeldt)",
         // price_50g: ,
@@ -220,7 +220,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "23",
+        key: "22",
         menuNumber: "14",
         name: "Ceylon BOP medium",
         price_50g: 2.25,
@@ -230,7 +230,7 @@ const blackTeaData = [
         description: "Aromatischer Brocken-Tee, gut zum Mischen"
     },
     {
-        key: "24",
+        key: "23",
         menuNumber: "15",
         name: "Ceylon OP",
         price_50g: 3.60,
@@ -240,7 +240,7 @@ const blackTeaData = [
         description: "Pettiagalla, großes, langes Blatt, leicht bekömmlicher, würziger, Hochland-Tee"
     },
     {
-        key: "25",
+        key: "24",
         menuNumber: "16",
         name: "Ceylon OP Sommer/Herbst (Ronnefeldt)",
         // price_50g: ,
@@ -250,7 +250,7 @@ const blackTeaData = [
         description: "Ausgewogene Mischung aus den Gärten des Dimbula im Südwesten der Insel, ergiebig u. aromatisch"
     },
     {
-        key: "26",
+        key: "25",
         menuNumber: "17",
         name: "Ceylon BOP Uva",
         price_50g: 2.70,
@@ -260,7 +260,7 @@ const blackTeaData = [
         description: "Hervorragende Qualität, herb-Kräftiger Tee aus dem Distrikt Uva"
     },
     {
-        key: "27",
+        key: "26",
         menuNumber: "18",
         name: "Ceylon OP Nuwara Eliya",
         price_50g: 3.85,
@@ -270,7 +270,7 @@ const blackTeaData = [
         description: "Exzellenter Hochland-Tee, kräftig im Geschmack"
     },
     {
-        key: "28",
+        key: "27",
         menuNumber: "19",
         name: "Ceylon FOP Kandy",
         price_50g: 3.30,
@@ -280,7 +280,7 @@ const blackTeaData = [
         description: "Spitzenqualität, mild, großes Blatt, geeignet für hartes Wasser"
     },
     {
-        key: "29",
+        key: "28",
         menuNumber: "28",
         name: "Infree",
         price_50g: 4.70,
@@ -290,7 +290,7 @@ const blackTeaData = [
         description: "Ceylon Brocken-Tee, dem durch ein Spezialverfahren das Teein weitgehend entzogen wurde"
     },
     {
-        key: "30",
+        key: "29",
         menuNumber: "20",
         name: "Mate Tee grün, Argentinien",
         price_50g: 1.90,
@@ -300,7 +300,7 @@ const blackTeaData = [
         description: "Aus Blättern des Erva-Mate Baumes, stark anregend"
     },
     {
-        key: "31",
+        key: "30",
         menuNumber: "20.1",
         name: "Mate Tee geröstet",
         price_50g: 1.90,
@@ -310,7 +310,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "32",
+        key: "31",
         menuNumber: "21",
         name: "Sumarta",
         price_50g: 2.50,
@@ -320,7 +320,7 @@ const blackTeaData = [
         description: "Kräftig, indonesischer Schwarz-Tee"
     },
     {
-        key: "33",
+        key: "32",
         menuNumber: "22",
         name: "Lapacho",
         price_50g: 2.35,
@@ -330,7 +330,7 @@ const blackTeaData = [
         description: "Rinde des roten Lapachobaumes, Südamerika"
     },
     {
-        key: "34",
+        key: "33",
         menuNumber: "24",
         name: "Türkische Mischung",
         price_50g: 2.70,
@@ -340,7 +340,7 @@ const blackTeaData = [
         description: "Kräftiger Schwarz-Tee"
     },
     {
-        key: "35",
+        key: "34",
         menuNumber: "25",
         name: "Java",
         price_50g: 2.50,
@@ -350,7 +350,7 @@ const blackTeaData = [
         description: "Dunkelziehender Schwarz-Tee, geeignet zum Mischung"
     },
     {
-        key: "36",
+        key: "35",
         menuNumber: "30",
         name: "Kenya Pekoe Highgrown",
         price_50g: 3.60,
@@ -360,7 +360,7 @@ const blackTeaData = [
         description: "Afriikanischer Schwarz-Tee, fein-herbes Aroma"
     },
     {
-        key: "37",
+        key: "36",
         menuNumber: "31",
         name: "Tee Le Touarec",
         price_50g: 2.50,
@@ -370,7 +370,7 @@ const blackTeaData = [
         description: "Grüner China Gunpowder mit erfrischendem Minzgeschmack"
     },
     {
-        key: "38",
+        key: "37",
         menuNumber: "32",
         name: "Grusinien BOP",
         price_50g: 2.70,
@@ -380,7 +380,7 @@ const blackTeaData = [
         description: "Orginal Russischer Schwarz- Tee mit wenig Gerbsäure"
     },
     {
-        key: "39",
+        key: "38",
         menuNumber: "34",
         name: "Russische Mischung",
         price_50g: 2.70,
@@ -390,7 +390,7 @@ const blackTeaData = [
         description: "Kräftige und aromatische Blattmischung aus Assam, China und Darjeeling Tee"
     },
     {
-        key: "40",
+        key: "39",
         menuNumber: "35",
         name: "English Blend Brocken Tea",
         price_50g: 2.50,
@@ -400,7 +400,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "41",
+        key: "40",
         menuNumber: "35/1",
         name: "English Breakfast Tea",
         price_50g: 2.85,
@@ -410,7 +410,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "42",
+        key: "41",
         menuNumber: "36",
         name: "Ostfriesen Brocken Mischung",
         price_50g: 2.60,
@@ -420,7 +420,7 @@ const blackTeaData = [
         description: "Ostfriesen Mischung, dunkel Tasse Und durch mild"
     },
     {
-        key: "43",
+        key: "42",
         menuNumber: "37",
         name: "Ostfriesen Blatt Mischung",
         price_50g: 2.85,
@@ -430,7 +430,7 @@ const blackTeaData = [
         // description: ""
     },
     {
-        key: "44",
+        key: "43",
         menuNumber: "28",
         name: "Infree",
         price_50g: 4.70,
@@ -440,7 +440,7 @@ const blackTeaData = [
         description: "Ceylon Tee, dem durch ein Spezialverfahren das Teein weitgehend entzogen wurde"
     },
     {
-        key: "45",
+        key: "44",
         menuNumber: "45/4",
         name: "Greenfield light teeinfrei",
         price_50g: 3.70,
@@ -450,7 +450,7 @@ const blackTeaData = [
         description: "Sympathischer China Sencha, angenehmer Geschmack"
     },
     {
-        key: "46",
+        key: "45",
         menuNumber: "49",
         name: "Tarry Lapsangsouchong",
         price_50g: 3.00,
@@ -460,7 +460,7 @@ const blackTeaData = [
         description: "Über Holzfeuer geräucherter China Tee, sehr intensiv"
     },
     {
-        key: "47",
+        key: "46",
         menuNumber: "50",
         name: "Szechwan Black",
         price_50g: 2.75,
@@ -470,7 +470,7 @@ const blackTeaData = [
         description: "Schwarzer China-Tee, weich im Geschmack, wenig teein"
     },
     {
-        key: "48",
+        key: "47",
         menuNumber: "51",
         name: "Keemun Black",
         price_50g: 2.75,
@@ -480,7 +480,7 @@ const blackTeaData = [
         description: "Feiner China-Tee, teeinarm, gut für abends und für den Magen-Darm-Trakt"
     },
     {
-        key: "49",
+        key: "48",
         menuNumber: "51/1",
         name: "Keemun (Ronnefeldt)",
         // price_50g: ,
@@ -490,7 +490,7 @@ const blackTeaData = [
         description: "EleganterTee aus China für Teetrinker, die leichte, weiche Chinatees und ihre mild anregende"
     },
     {
-        key: "50",
+        key: "49",
         menuNumber: "52",
         name: "Golden Yunnan",
         price_50g: 2.75,
@@ -500,7 +500,7 @@ const blackTeaData = [
         description: "Schwarzer China Tee, weich in der Tasse"
     },
     {
-        key: "51",
+        key: "50",
         menuNumber: "52/1",
         name: "Pu-Erh Tee, first grade Blatttgrad 3",
         price_50g: 2.75,
