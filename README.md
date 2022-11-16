@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Teestube-Teatime
+  ## Table of Contents
+   - [Demonstration](#Demonstration)
+   - [Description](#Description)
+   - [Installation](#Installation)
+   - [Author](#Author)
+   - [Installation Tip](#InstallationTip)
+   - [Questions](#Questions)
+  
+  ## Demonstration
+  Live Website: https://teestube-teatime.de/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Description
+  This is a website I created for a client that has a tea store in Mainz, Germany. It is a responsive website that works on different screen sizes and mobile devices. It was developed in React, and makes use of packages such as: react-bootstrap and antd style frameworks, google-map-react to display its location, i18 internationalization for translations, and dotenv for hiding API keys.  
+  
 
-## Available Scripts
+  ## Installation
+  First clone the repo down, then navigate to it in a terminal with node/npm installed on the computer.  
 
-In the project directory, you can run:
+  >npm install  
+  This will install all dependencies, allowing the website to run.  
+  >npm start  
+  This will start the website locally.  
+  >npm run build  
+  This will build the website for putting into production. You must copy the contents of the build folder to your webserver.  
 
-### `npm start`
+  ## InstallationTip
+  Many web hosts have trouble with react being bundled, and routing to different pages won't work. You need to make it so the server always redirects to index.html in the public folder. Create a .htaccess file in the root folder, and include 
+  >Options -MultiViews
+  >RewriteEngine On
+  >RewriteCond %{REQUEST_FILENAME} !-f
+  >RewriteRule ^ index.html [QSA,L]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ## Author
+  This project was created by:  
+  [Mark Drecoll](https://markdrecoll.com),  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ## Questions
+  markdrecoll@gmail.com
