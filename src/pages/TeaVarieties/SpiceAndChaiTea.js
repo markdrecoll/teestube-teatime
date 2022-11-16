@@ -3,6 +3,7 @@ import { t } from "i18next";
 
 import Menu from '../../components/Menu';
 import spiceAndChaiTeaData from '../../teaData/spiceAndChaiTeaData';
+import spiceChaiTeaData from '../../teaData/spiceChaiTeaData';
 
 const SpiceAndChaiTea = () => {
 
@@ -21,12 +22,6 @@ const SpiceAndChaiTea = () => {
                 <span><b>{record.name}</b><br />{record.description}</span>
             )
         },
-        // {
-        //     title: t('50 Grams'),
-        //     dataIndex: 'price_50g',
-        //     key: 'price_50g',
-        //     render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
-        // },
         {
             title: t('100 Grams'),
             dataIndex: 'price_100g',
@@ -40,6 +35,9 @@ const SpiceAndChaiTea = () => {
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
     ]
+
+    console.log(JSON.stringify(spiceAndChaiTeaData));
+    console.log(spiceChaiTeaData);
     
     return (
         <div>
@@ -51,9 +49,9 @@ const SpiceAndChaiTea = () => {
                 </div>
 
                 <Table
-                dataSource={spiceAndChaiTeaData? spiceAndChaiTeaData : ""}
+                dataSource={spiceChaiTeaData? spiceChaiTeaData : ""}
                 columns={columns}
-                rowKey={spiceAndChaiTeaData? spiceAndChaiTeaData.key : ""}
+                rowKey={spiceChaiTeaData? spiceChaiTeaData.key : ""}
                 // pagination={{ pageSize: 12 }}
                 pagination={false}
                 size="small"
