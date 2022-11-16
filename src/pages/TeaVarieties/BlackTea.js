@@ -1,82 +1,12 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
-import { Table, Input, Space } from "antd";
-import Highlighter from 'react-highlight-words';
-import { SearchOutlined } from '@ant-design/icons';
+import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import blackTeaData from '../../teaData/blackTeaJsonData';
+import blackTeaData from '../../teaData/blackTeaData';
 
 const BlackTea = () => {
-    
-    // Search Functionality for Table
-    // adapted from antd table search, as well as stack overflow showing how to convert to functional https://stackoverflow.com/questions/69356379/how-to-do-column-level-search-in-ant-design-using-function-component
-    const getColumnSearchProps = dataIndex => ({
-        filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters }) => (
-            <div style={{ padding: 8 }}>
-                <Input
-                    ref={searchInput}
-                    placeholder={t("Search") + " Name"}
-                    value={selectedKeys[0]}
-                    onChange={e => setSelectedKeys(e.target.value ? [e.target.value] : [])}
-                    onPressEnter={() => handleSearch(selectedKeys, confirm, dataIndex)}
-                    style={{ marginBottom: 8, display: 'block' }}
-                />
-                <Space>
-                    <Button
-                        type="primary"
-                        onClick={() => handleSearch(selectedKeys, confirm, dataIndex)}
-                        icon={<SearchOutlined />}
-                        size="small"
-                        style={{ width: 100 }}
-                    >
-                        {t("Search")}
-                    </Button>
-                    <Button onClick={() => handleReset(clearFilters, confirm)} size="small" style={{ width: 100 }}>
-                        {t("Reset")}
-                    </Button>
-                </Space>
-            </div>
-        ),
-        filterIcon: filtered => <SearchOutlined style={{ color: filtered ? '#1890ff' : undefined }} />,
-        onFilter: (value, record) =>
-            record[dataIndex]
-                ? record[dataIndex].toString().toLowerCase().includes(value.toLowerCase())
-                : '',
-        onFilterDropdownVisibleChange: visible => {
-            if (visible) {
-                setTimeout(() => searchInput && searchInput.current && searchInput.current.select());
-            }
-        },
-        render: text =>
-            searchState.searchedColumn === dataIndex ? (
-                <Highlighter
-                    highlightStyle={{ backgroundColor: '#ffc069', padding: 0 }}
-                    searchWords={[searchState.searchText]}
-                    autoEscape
-                    textToHighlight={text ? text.toString() : ''}
-                />
-            ) : (
-                text
-            ),
-    });
-
-    // Search helper function
-    const handleSearch = (selectedKeys, confirm, dataIndex) => {
-        confirm();
-        setSearchState({
-            searchText: selectedKeys[0],
-            searchedColumn: dataIndex,
-        });
-    };
-
-    // Search reset function
-    const handleReset = (clearFilters, confirm) => {
-        clearFilters();
-        setSearchState({ searchText: '' });
-        confirm();
-    };
 
     // Columns of the table
     const columns = [
@@ -84,7 +14,6 @@ const BlackTea = () => {
             title: '',
             dataIndex: 'menuNumber',
             key: 'menuNumber',
-            // ...getColumnSearchProps('menuNumber'),
         },
         {
             title: t('Name'),
@@ -115,10 +44,7 @@ const BlackTea = () => {
             // sorter: (a, b) => a.price_250g - b.price_250g,
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
-    ]
-
-    const [searchState, setSearchState] = useState({ searchText: '', searchedColumn: '' })
-    const searchInput = useRef(null);
+    ];
 
     const indienAssamTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Assam'});
     const indienDarjeelingTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Darjeeling'});
@@ -136,7 +62,7 @@ const BlackTea = () => {
 
     const handleClick = (teaType) => {
         setCurrentTeaType(teaType);
-    }
+    };
     
     return (
         <div>

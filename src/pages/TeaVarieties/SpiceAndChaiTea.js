@@ -2,7 +2,7 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import spiceAndChaiTeaData from '../../teaData/spiceAndChaiTeaJsonData';
+import spiceAndChaiTeaData from '../../teaData/spiceAndChaiTeaData';
 
 const SpiceAndChaiTea = () => {
 
@@ -33,7 +33,7 @@ const SpiceAndChaiTea = () => {
             key: 'price_250g',
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
-    ]
+    ];
     
     return (
         <div>

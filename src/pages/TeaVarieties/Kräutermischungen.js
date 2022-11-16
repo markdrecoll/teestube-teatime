@@ -3,7 +3,7 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import kräutermischungenData from '../../teaData/kräutermischungenJsonData';
+import kräutermischungenData from '../../teaData/kräutermischungenData';
 
 const Kräutermischungen = () => {
 
