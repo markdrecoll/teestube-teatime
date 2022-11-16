@@ -3,7 +3,6 @@ change homepage in package
 translation button should cause table to rerender with translations
 routing translations
 proper documentation
-readme
 
 Questions:
 Ask about initial zoom of map
