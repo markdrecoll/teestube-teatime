@@ -53,7 +53,7 @@ const blackTeaData = [
         key: "5",
         menuNumber: "4.2",
         name: "Tippy Assam(Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.70,
         price_250g: 16.75,
         type: "Indien Assam",
@@ -103,7 +103,7 @@ const blackTeaData = [
         key: "10",
         menuNumber: "6.3",
         name: "Spring Darjeeling FTGFOP(Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 14.85,
         price_250g: 37.10,
         type: "Indien Darjeeling",
@@ -147,7 +147,7 @@ const blackTeaData = [
         price_100g: 12.10,
         price_250g: 30.00,
         type: "Indien Darjeeling",
-        // description: ""
+        description: ""
     },
     {
         key: "15",
@@ -171,13 +171,13 @@ const blackTeaData = [
     },
     {
         key: "17",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Darjeeling-Teeaktion, Schadstoffkontrolliert",
-        // price_50g: ,
-        // price_100g: ,
-        // price_250g: ,
+        price_50g: "",
+        price_100g: "",
+        price_250g: "",
         type: "Indien Darjeeling",
-        description: "500 gr 22,00 €"
+        description: "500 gr €22,00"
     },
     {
         key: "18",
@@ -207,17 +207,17 @@ const blackTeaData = [
         price_100g: 7.95,
         price_250g: 17.85,
         type: "Indien Himalaya",
-        // description: ""
+        description: ""
     },
     {
         key: "21",
         menuNumber: "13.2",
         name: "Golden Nepal TGFOP (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 7.60,
         price_250g: 19.00,
         type: "Indien Himalaya",
-        // description: ""
+        description: ""
     },
     {
         key: "22",
@@ -243,7 +243,7 @@ const blackTeaData = [
         key: "24",
         menuNumber: "16",
         name: "Ceylon OP Sommer/Herbst (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.60,
         price_250g: 14.00,
         type: "Ceylon",
@@ -307,7 +307,7 @@ const blackTeaData = [
         price_100g: 3.30,
         price_250g: 8.00,
         type: "Verschiedene Länder",
-        // description: ""
+        description: ""
     },
     {
         key: "31",
@@ -397,7 +397,7 @@ const blackTeaData = [
         price_100g: 5.00,
         price_250g: 12.00,
         type: "England (Hauptbestandteil: Ceylon)",
-        // description: ""
+        description: ""
     },
     {
         key: "40",
@@ -407,7 +407,7 @@ const blackTeaData = [
         price_100g: 5.20,
         price_250g: 12.75,
         type: "England (Hauptbestandteil: Ceylon)",
-        // description: ""
+        description: ""
     },
     {
         key: "41",
@@ -427,7 +427,7 @@ const blackTeaData = [
         price_100g: 5.20,
         price_250g: 12.75,
         type: "Ostfriesland (enthält zu 90% Assam-Tee)",
-        // description: ""
+        description: ""
     },
     {
         key: "43",
@@ -483,7 +483,7 @@ const blackTeaData = [
         key: "48",
         menuNumber: "51/1",
         name: "Keemun (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.50,
         price_250g: 13.25,
         type: "China Schwarz-Tee",

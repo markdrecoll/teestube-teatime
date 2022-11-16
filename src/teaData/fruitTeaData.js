@@ -107,7 +107,7 @@ const fruitTeaData = [
         price_100g: 4.50,
         price_250g: 11.00,
         type: "Früchte-Tee",
-        // description: ""
+        description: ""
     },
     {
         key: "11",
@@ -137,7 +137,7 @@ const fruitTeaData = [
         price_100g: 4.75,
         price_250g: 11.60,
         type: "Früchte-Tee",
-        // description: ""
+        description: ""
     },
     {
         key: "14",
@@ -157,7 +157,7 @@ const fruitTeaData = [
         price_100g: 4.50,
         price_250g: 11.00,
         type: "Früchte-Tee",
-        // description: ""
+        description: ""
     },
     {
         key: "16",
@@ -187,7 +187,7 @@ const fruitTeaData = [
         price_100g: 4.75,
         price_250g: 11.60,
         type: "Früchte-Tee",
-        // description: ""
+        description: ""
     },
     {
         key: "19",

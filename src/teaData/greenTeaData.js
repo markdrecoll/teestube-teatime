@@ -17,7 +17,7 @@ const greenTeaData = [
         price_100g: 5.45,
         price_250g: 13.60,
         type: "Japan Grüntee",
-        // description: ""
+        description: ""
     },
     {
         key: "2",
@@ -37,18 +37,17 @@ const greenTeaData = [
         price_100g: 5.60,
         price_250g: 13.75,
         type: "Japan Grüntee",
-        // description: ""
+        description: ""
     },
     {
         key: "4",
         menuNumber: "40/5",
         name: "Matcha BIO",
-        // price_50g: ,
-        // price_100g: ,
-        // price_250g: ,
+        price_50g: "",
+        price_100g: "",
+        price_250g: "",
         type: "Japan Grüntee",
-        description: "Japan Original Premium: 30 gr in Dose 39,00"
-        // original text was 30 gr in Dose 39,00
+        description: "30 gr in Dose 39,00"
     },
     {
         key: "5",
@@ -84,9 +83,9 @@ const greenTeaData = [
         key: "8",
         menuNumber: "45/2",
         name: "Pu Erh Tee grün (gepreßter Pu Erh Tee)",
-        // price_50g: ,
-        // price_100g: ,
-        // price_250g: ,
+        price_50g: "",
+        price_100g: "",
+        price_250g: "",
         type: "China Grüntee",
         description: "Stück 1,30"
     },
@@ -108,7 +107,7 @@ const greenTeaData = [
         price_100g: 6.00,
         price_250g: 14.75,
         type: "China Grüntee",
-        // description: ""
+        description: ""
     },
     {
         key: "11",
@@ -138,17 +137,17 @@ const greenTeaData = [
         price_100g: 6.60,
         price_250g: 16.25,
         type: "China Grüntee",
-        // description: ""
+        description: ""
     },
     {
         key: "14",
         menuNumber: "53/2",
         name: "Jasmin Xian Yu (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 10.90,
         price_250g: 27.25,
         type: "China Grüntee",
-        // description: ""
+        description: ""
     },
     {
         key: "15",
@@ -174,7 +173,7 @@ const greenTeaData = [
         key: "17",
         menuNumber: "45/8",
         name: "Weißer Mangotraum (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 7.60,
         price_250g: 19.00,
         type: "China weißtee",
@@ -238,47 +237,47 @@ const greenTeaData = [
         price_100g: 5.45,
         price_250g: 13.35,
         type: "China Oolong-Tee (schwarzer Drachen, Halb fermentiert)",
-        // description: ""
+        description: ""
     },
     {
         key: "24",
         menuNumber: "GTR1",
         name: "Ceylon Watawalla Spezial FOP, BIO",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 9.35,
         price_250g: 22.55,
         type: "Verschiedene Länder Grüntee (Ronnefeldt)",
-        // description: ""
+        description: ""
     },
     {
         key: "25",
         menuNumber: "GTR2",
         name: "Assam Khongea TGFOP",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.85,
         price_250g: 17.10,
         type: "Verschiedene Länder Grüntee (Ronnefeldt)",
-        // description: ""
+        description: ""
     },
     {
         key: "26",
         menuNumber: "GTR3",
         name: "Darjeeling North Tukvar TGFOP, BIO",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 7.60,
         price_250g: 19.00,
         type: "Verschiedene Länder Grüntee (Ronnefeldt)",
-        // description: ""
+        description: ""
     },
     {
         key: "27",
         menuNumber: "GTR4",
         name: "China Keemun Con",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.40,
         price_250g: 13.50,
         type: "Verschiedene Länder Grüntee (Ronnefeldt)",
-        // description: ""
+        description: ""
     }
 ]
 

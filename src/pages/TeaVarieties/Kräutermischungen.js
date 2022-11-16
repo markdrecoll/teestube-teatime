@@ -3,12 +3,12 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import kräutermischungenData from '../../teaData/kräutermischungenData';
+import kräutermischungenData from '../../teaData/kräutermischungenJsonData';
 
 const Kräutermischungen = () => {
 
     // Columns of the table
-    const columns1 = [
+    const columnsFirstPage = [
         {
             title: '',
             dataIndex: 'menuNumber',
@@ -40,9 +40,9 @@ const Kräutermischungen = () => {
             key: 'price_250g',
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
-    ]
+    ];
 
-    const columns2 = [
+    const columnsSecondPage = [
         {
             title: t('Name'),
             dataIndex: 'name-description',
@@ -57,18 +57,18 @@ const Kräutermischungen = () => {
             key: 'price_100g',
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
-    ]
+    ];
 
-    const [currentColumns, setCurrentColumns] = useState(columns1);
+    const [currentColumns, setCurrentColumns] = useState(columnsFirstPage);
 
     const onPageChange = (page) => {       
         if(page.current == 1){
-            setCurrentColumns(columns1);
+            setCurrentColumns(columnsFirstPage);
         }
         if(page.current == 2){
-            setCurrentColumns(columns2);
+            setCurrentColumns(columnsSecondPage);
         }
-    }
+    };
     
     return (
         <div>

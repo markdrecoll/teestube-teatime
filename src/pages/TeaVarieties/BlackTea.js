@@ -6,7 +6,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import blackTeaData from '../../teaData/blackTeaData';
+import blackTeaData from '../../teaData/blackTeaJsonData';
 
 const BlackTea = () => {
     
