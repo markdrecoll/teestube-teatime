@@ -1,0 +1,42 @@
+[
+    {
+        "key": 0,
+        "menuNumber": "CH1",
+        "name": "Chai",
+        "price_100g": 6.5,
+        "price_250g": 16.25,
+        "description": "Schwarzer-Tee (47%), Ingwer, Anis, schwarze Pfefferkörner, Nelken, Zimtstücken, Fenchel"
+    },
+    {
+        "key": 1,
+        "menuNumber": "CH2",
+        "name": "Vanille Chai",
+        "price_100g": 7.35,
+        "price_250g": 18.3,
+        "description": "Schwarzer-Tee (Assam 51%), Ingwer, Zimt, Gewürznelken, Kardamon"
+    },
+    {
+        "key": 2,
+        "menuNumber": "CH3",
+        "name": "Chai Ginger Orange",
+        "price_100g": 6.5,
+        "price_250g": 16.25,
+        "description": "Schwarzer-Tee (Niilgiri 57%), Ingwer, Nelke, Orangenschale, Zimtstücken, Kardamon, geröstete Zichorienwurzeln, Schwarze Pfefferkörner, Ringelblumenblüten, Aroma"
+    },
+    {
+        "key": 3,
+        "menuNumber": "CH4",
+        "name": "Red Chili Chai",
+        "price_100g": 6.5,
+        "price_250g": 16.25,
+        "description": "Schwarzer-Tee (Assam 57%), Nelken, Kakaobohnen, Zimtstücke, Kardamon, Chili, geröstete Zichorienwurzel, schwarze Pfefferkörner, Aroma"
+    },
+    {
+        "key": 4,
+        "menuNumber": "CH5",
+        "name": "Morgentau-Chai",
+        "price_100g": 6.5,
+        "price_250g": 16.25,
+        "description": "Grüner Tee (52%), Ingwer, Anis, Koriander, Gewürznelke, Zimtstückchen, schwarze Pfefferkörner, Kardamon, Sonnenblumen-/Kornblumen-/Rosenblüten, Aroma"
+    }
+]
