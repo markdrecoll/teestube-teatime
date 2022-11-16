@@ -2,7 +2,7 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import aromaticGreenTeaData from '../../teaData/aromaticGreenTeaJsonData';
+import aromaticGreenTeaData from '../../teaData/aromaticGreenTeaData';
 
 const AromaticGreenTea = () => {
 

@@ -2,7 +2,7 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import RooibuschHoneybuschData from '../../teaData/RooibuschHoneybuschJsonData';
+import RooibuschHoneybuschData from '../../teaData/RooibuschHoneybuschData';
 
 const RooibuschHoneybuschTee = () => {
 
