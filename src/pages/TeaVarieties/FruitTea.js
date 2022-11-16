@@ -5,7 +5,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import fruitTeaData from '../../teaData/fruitTeaData';
+import fruitTeaData from '../../teaData/fruitTeaJsonData';
 
 const FruitTea = () => {
 
@@ -124,9 +124,9 @@ const FruitTea = () => {
                 </div>
 
                 <Table
-                dataSource={fruitTeaData}
+                dataSource={fruitTeaData? fruitTeaData : ""}
                 columns={columns}
-                rowKey={fruitTeaData.key}
+                rowKey={fruitTeaData.key? fruitTeaData.key : ""}
                 pagination={{ pageSize: 10 }}
                 size="small"
                 bordered="true"

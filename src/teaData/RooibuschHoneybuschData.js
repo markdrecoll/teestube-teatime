@@ -7,7 +7,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "1",
@@ -17,7 +17,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "2",
@@ -27,7 +27,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "3",
@@ -53,17 +53,17 @@ const RooibuschHoneybuschTee = [
         key: "5",
         menuNumber: "R15",
         name: "Karamell (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.40,
         price_250g: 16.00,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "6",
         menuNumber: "R18",
         name: "Rooibus Kromland grün (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.50,
         price_250g: 16.25,
         type: "RooibuschHoneybusch",
@@ -77,7 +77,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "8",
@@ -117,7 +117,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 4.95,
         price_250g: 11.85,
         type: "Unvermischt, weich in Geschmeckt",
-        // description: ""
+        description: ""
     },
     {
         key: "12",
@@ -127,13 +127,13 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "13",
         menuNumber: "R21",
         name: "Orange-Sahne (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.50,
         price_250g: 16.25,
         type: "RooibuschHoneybusch",
@@ -153,7 +153,7 @@ const RooibuschHoneybuschTee = [
         key: "15",
         menuNumber: "R3",
         name: "Vanille",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.50,
         price_250g: 16.25,
         type: "RooibuschHoneybusch",
@@ -177,7 +177,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "18",
@@ -197,7 +197,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.50,
         price_250g: 13.50,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     },
     {
         key: "20",
@@ -217,7 +217,7 @@ const RooibuschHoneybuschTee = [
         price_100g: 5.85,
         price_250g: 14.35,
         type: "RooibuschHoneybusch",
-        // description: ""
+        description: ""
     }
 ]
 

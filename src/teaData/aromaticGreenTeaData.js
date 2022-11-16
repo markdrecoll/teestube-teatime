@@ -6,7 +6,7 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Erdbeer-Ananas-Geschmack, China-Sencha, Gunpowder, Mini Tuo Tea, Chunmee, Pai Mu Tan, Lung ching, Pi Lo Chun, Kandierte Ananasstücke, Erdbeerstücke, Sonnenblumenblüten, Aroma"
     },
     {
@@ -16,7 +16,7 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Pfirsich-Jasmin-Geschmack, weißer Tee, China Mao Feng, Grüntee China-Quangxi, Jasmin Perls, weiße Hibiskusblüten, Aroma"
     },
     {
@@ -26,8 +26,8 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "3",
@@ -36,7 +36,7 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Sencha, Ming Mee, Weißer Tee, Gunpowder, Wu Lu, Jasmin, Kornblumenblüten, rote u. schwarze Johanes Blüten, Ginseng Wurzel, Aprikosenstücke"
     },
     {
@@ -46,17 +46,17 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Mit Kornblumen- und Sonnenblumenblüten, Aprikose Geschmack"
     },
     {
         key: "5",
         menuNumber: "SG29",
         name: "Ingwer-Zitrone (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.05,
         price_250g: 15.10,
-        // type: "",
+        type: "",
         description: "Eine Mischung aus Grünem Tee mit Ingwer und Zitronengeschmack"
     },
     {
@@ -66,8 +66,8 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "7",
@@ -76,8 +76,8 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "8",
@@ -86,8 +86,8 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "9",
@@ -96,7 +96,7 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Hagebutte, Hibiskus, fruchtig, sahnig, cremig, weich in Geschmack"
     },
     {
@@ -106,17 +106,17 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "11",
         menuNumber: "SG17",
         name: "Morgentau (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 6.50,
         price_250g: 16.25,
-        // type: "",
+        type: "",
         description: "Mit Mango-, Lulo-, Bergamotte Aroma, Sonnenblumen-, Kornblumen- u. Rosenblüten"
     },
     {
@@ -126,8 +126,8 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "13",
@@ -136,17 +136,17 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "14",
         menuNumber: "SG7",
         name: "Tautropfen (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.40,
         price_250g: 13.50,
-        // type: "",
+        type: "",
         description: "Von Ananas bis Erdbeere reicht der Fruchtgeschmack der Naranquilla, Rosen-Orangenblüten"
     },
     {
@@ -156,8 +156,8 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
-        // description: ""
+        type: "",
+        description: ""
     },
     {
         key: "16",
@@ -166,7 +166,7 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Holunderbeeren, Heidelbeerblätter, Erdbeeren"
     },
     {
@@ -176,7 +176,7 @@ const aromaticBlackTeaData = [
         price_50g: 2.80,
         price_100g: 5.60,
         price_250g: 13.75,
-        // type: "",
+        type: "",
         description: "Mango-/Apfelstücke, Hagebutten, Hibiskus, Korinthen, Papaya, Orangenschalen, Rosenblüten, Kornblumenblüten"
     }
 ]

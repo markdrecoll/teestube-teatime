@@ -2,8 +2,7 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import spiceAndChaiTeaData from '../../teaData/spiceAndChaiTeaData';
-import spiceChaiTeaData from '../../teaData/spiceChaiTeaData';
+import spiceAndChaiTeaData from '../../teaData/spiceAndChaiTeaJsonData';
 
 const SpiceAndChaiTea = () => {
 
@@ -35,9 +34,6 @@ const SpiceAndChaiTea = () => {
             render: translatedCost => translatedCost? (new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(translatedCost)) : ''
         }
     ]
-
-    console.log(JSON.stringify(spiceAndChaiTeaData));
-    console.log(spiceChaiTeaData);
     
     return (
         <div>
@@ -49,9 +45,9 @@ const SpiceAndChaiTea = () => {
                 </div>
 
                 <Table
-                dataSource={spiceChaiTeaData? spiceChaiTeaData : ""}
+                dataSource={spiceAndChaiTeaData? spiceAndChaiTeaData : ""}
                 columns={columns}
-                rowKey={spiceChaiTeaData? spiceChaiTeaData.key : ""}
+                rowKey={spiceAndChaiTeaData? spiceAndChaiTeaData.key : ""}
                 // pagination={{ pageSize: 12 }}
                 pagination={false}
                 size="small"

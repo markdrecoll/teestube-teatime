@@ -23,7 +23,7 @@ const kräutermischungenData = [
         key: "2",
         menuNumber: "K6",
         name: "Fitness Kräutertee, Bio (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.80,
         price_250g: 14.25,
         type: "page1",
@@ -43,7 +43,7 @@ const kräutermischungenData = [
         key: "4",
         menuNumber: "K10",
         name: "Ingwer auf Kräuter (Ronnefeldt)",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.80,
         price_250g: 14.25,
         type: "page1",
@@ -111,93 +111,93 @@ const kräutermischungenData = [
     },
     {
         key: "11",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Pfefferminze geschnitten",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.00,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "12",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Moringablätter",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 4.75,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "13",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Fenchelsaat",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 3.55,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "14",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Kamillenblüten",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 4.95,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "15",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Salbeiblätter",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 4.10,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "16",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Lemongrass",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 2.90,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "17",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Hibiskusblüten",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 5.85,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "18",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Brennnesselblätter",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 4.20,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     },
     {
         key: "19",
-        // menuNumber: "",
+        menuNumber: "",
         name: "Cistus",
-        // price_50g: ,
+        price_50g: "",
         price_100g: 3.95,
-        // price_250g: ,
+        price_250g: "",
         type: "page2",
-        // description: ""
+        description: ""
     }
 ]
 

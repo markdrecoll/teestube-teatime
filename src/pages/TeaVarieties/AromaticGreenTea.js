@@ -2,7 +2,7 @@ import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import aromaticGreenTeaData from '../../teaData/aromaticGreenTeaData';
+import aromaticGreenTeaData from '../../teaData/aromaticGreenTeaJsonData';
 
 const AromaticGreenTea = () => {
 
@@ -21,11 +21,6 @@ const AromaticGreenTea = () => {
                 <span><b>{record.name}</b><br />{record.description}</span>
             )
         },
-        // {
-        //     title: t('Description'),
-        //     dataIndex: 'description',
-        //     key: 'description'
-        // },
         {
             title: t('50 Grams'),
             dataIndex: 'price_50g',
