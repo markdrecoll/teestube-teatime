@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 import { Table } from "antd";
 import { t } from "i18next";
 
 import Menu from '../../components/Menu';
-import blackTeaData from '../../teaData/blackTeaData';
+// import blackTeaData from '../../teaData/blackTeaData';
 
 const BlackTea = () => {
 
@@ -46,6 +46,33 @@ const BlackTea = () => {
         }
     ];
 
+    const [blackTeaData, setBlackTeaData] = useState([]);
+
+    const getData=()=>{
+        fetch('teaData/blackTeaData.json'
+        ,{
+          headers : { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+           }
+        }
+        )
+          .then(function(response){
+            console.log(response)
+            return response.json();
+          })
+          .then(function(myJson) {
+            console.log(myJson);
+            setBlackTeaData(myJson);
+            return myJson;
+          });
+      }
+      useEffect(()=>{
+        getData();
+      },[]);
+
+    // const blackTeaData = getData();
+
     const indienAssamTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Assam'});
     const indienDarjeelingTeas = blackTeaData.filter(tea => {return tea.type === 'Indien Darjeeling'});
     const indienHimalaya = blackTeaData.filter(tea => {return tea.type === 'Indien Himalaya'});
@@ -58,10 +85,11 @@ const BlackTea = () => {
     const infree = blackTeaData.filter(tea => {return tea.type === 'Infree Tee'});
     const china = blackTeaData.filter(tea => {return tea.type === 'China Schwarz-Tee'});
 
-    const [currentTeaType, setCurrentTeaType] = useState(indienAssamTeas);
+    const [currentTeaType, setCurrentTeaType] = useState([]);
 
     const handleClick = (teaType) => {
         setCurrentTeaType(teaType);
+        console.log(blackTeaData);
     };
     
     return (

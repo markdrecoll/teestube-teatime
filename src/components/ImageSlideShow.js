@@ -10,7 +10,7 @@ function ImageSlideShow() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/assets/images/facebook_photos/teestube_facebook_photos(3).jpg"}
+          src={process.env.PUBLIC_URL + "/images/facebook_photos/teestube_facebook_photos(3).jpg"}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ function ImageSlideShow() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/assets/images/facebook_photos/teestube_facebook_photos(1).jpg"}
+          src={process.env.PUBLIC_URL + "/images/facebook_photos/teestube_facebook_photos(1).jpg"}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -32,7 +32,7 @@ function ImageSlideShow() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/assets/images/facebook_photos/teestube_facebook_photos(8).jpg"}
+          src={process.env.PUBLIC_URL + "/images/facebook_photos/teestube_facebook_photos(8).jpg"}
           alt="Second slide"
         />
         {/* <Carousel.Caption>

@@ -14,7 +14,7 @@ function Menu() {
 				<Navbar.Brand href="/">
 					<img
 						alt="Teestube-Teatime"
-						src={process.env.PUBLIC_URL + "/assets/images/logo_original.png"}
+						src={process.env.PUBLIC_URL + "/images/logo_original.png"}
 						width="125"
 						height="64"
 						// className="d-inline-block align-top"
