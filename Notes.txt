@@ -1,35 +1,14 @@
 Things to do:
-
-MAKE TRANSLATION BUTTON RERENDER (or force refresh) get table data again
-figure out antd table change default text for reset and ascending etc
+change homepage in package
+translation button should cause table to rerender with translations
 routing translations
-money api convert to USD?
-alt for images in gallery
-convert js objects to json
+proper documentation
+readme
 
 Questions:
 Ask about initial zoom of map
 For menu numbers: Some are 20.1 others 35/1
-Ask about highlighting on search
-Ask about table sorting, searching, filtering
-Language change button on footer?
-Language change button changes?
-Purpose of first number on menus
-What category for other tea page names
-other tea pages, and how to handle krauter page
-
-Title?
-Description of website
-menu translation
-
-More pictures
-picture of the store from the street for visibility
-
-have country code with phone number, do you still use fax, country code for english version only?
-
-proper documentation
-readme
-
-
-
-change homepage in package
+keep price sorting?
+language change button location?
+footer? maybe have language/datenshutz/established 1981
+website description meta data
