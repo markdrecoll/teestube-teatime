@@ -53,12 +53,12 @@ const Contact = () => {
                   <tr>
                     <td>{t("Thursday")}</td>
                     <td>{t("10:00 AM")}</td>
-                    <td>{t("6:30 PM")}</td>
+                    <td>{t("6:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Friday")}</td>
                     <td>{t("10:00 AM")}</td>
-                    <td>{t("6:30 PM")}</td>
+                    <td>{t("6:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Saturday")}</td>
