@@ -41,7 +41,7 @@ const SpiceAndChaiTea = () => {
             <div className="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12 shadow p-3 mb-5 mt-4 bg-white rounded">
 
                 <div className="text-center mb-3">
-                    <h3>Chai-Tee's (von Ronnefeldt)</h3>
+                    <h3>Chai Tee</h3>
                 </div>
 
                 <Table
