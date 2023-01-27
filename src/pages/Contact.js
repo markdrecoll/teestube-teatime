@@ -26,7 +26,7 @@ const Contact = () => {
                 <p className="m-0">Christofsstr. 11,AM Karmeliterplatz 55116 Mainz</p>
                 <p className="m-0 fw-bold">{t("Phone")}/Fax:</p>
                 <p className="m-0">{t("companyPhoneNumber")}</p>
-                <p className="mt-2 fw-bold text-center text-success">Wir sind im Dezember für sie geöffnet:<br />Mo-Fr: 10-18 Uhr, Mi: 14-18 Uhr, Sa:10-16 Uhr</p>
+                <p className="mt-2 fw-bold text-center text-success">Liebe Tee Freunde. Das Geschäft ist von<br />15.02.2023 bis 22.02.2023 geschlossen.</p>
               </Card.Text>
               
               <Table size="sm" className="m-0">
