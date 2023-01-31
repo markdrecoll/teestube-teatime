@@ -1,0 +1,422 @@
+[
+    {
+        "key": "0",
+        "menuNumber": "57",
+        "name": "TESTTEST",
+        "price_50g": 99999,
+        "price_100g": 5.3,
+        "price_250g": 13,
+        "type": "",
+        "description": "Schwarz u. grüner Tee aus China, Rosen-/Sonnenblumenblüten, Aroma,"
+    },
+    {
+        "key": "1",
+        "menuNumber": "112",
+        "name": "Adventstee (natürlicher Gewürztee)",
+        "price_50g": 3,
+        "price_100g": 5.5,
+        "price_250g": 13.35,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "2",
+        "menuNumber": "61",
+        "name": "Amaretto",
+        "price_50g": 2.9,
+        "price_100g": 5.3,
+        "price_250g": 13,
+        "type": "",
+        "description": "Mit dem Geschmack der Bittermandel"
+    },
+    {
+        "key": "3",
+        "menuNumber": "62",
+        "name": "Anis",
+        "price_50g": 2.75,
+        "price_100g": 5,
+        "price_250g": 12.25,
+        "type": "",
+        "description": "Mit Anissamen, Aroma"
+    },
+    {
+        "key": "4",
+        "menuNumber": "70",
+        "name": "Earl Grey",
+        "price_50g": 2.75,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit exquisiter Bergamotte"
+    },
+    {
+        "key": "5",
+        "menuNumber": "70/2",
+        "name": "Earl Grey TIPPY Golden (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 7.15,
+        "price_250g": 17.85,
+        "type": "",
+        "description": "Darjeeling, duftig-zarter Darjeeling, mit Kostbarem Aroma"
+    },
+    {
+        "key": "6",
+        "menuNumber": "70/3",
+        "name": "Earl Grey Famous (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 5.2,
+        "price_250g": 18.15,
+        "type": "",
+        "description": "Ein kühler frischer Hauch des Bergamotte Aromas über ausgewähltem Tee aus Indien, eine extravagante Komposition, mit Sonnblumenblüten"
+    },
+    {
+        "key": "7",
+        "menuNumber": "71",
+        "name": "Earl Grey Blue Star",
+        "price_50g": 2.9,
+        "price_100g": 5.3,
+        "price_250g": 13,
+        "type": "",
+        "description": "Mit exquisiter Bergamotte und Blumenblüten"
+    },
+    {
+        "key": "8",
+        "menuNumber": "71/101",
+        "name": "Lady Grey mit Orangenschalen",
+        "price_50g": 2.9,
+        "price_100g": 5.3,
+        "price_250g": 13,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "9",
+        "menuNumber": "72",
+        "name": "English Karamel",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit leichte Mocca-Touch"
+    },
+    {
+        "key": "10",
+        "menuNumber": "118",
+        "name": "Erdbeer-Sahne",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit Erdbeerblättern"
+    },
+    {
+        "key": "11",
+        "menuNumber": "83",
+        "name": "Herrentoffe (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Cremig, leicht-herber Toffe-Geschmack"
+    },
+    {
+        "key": "12",
+        "menuNumber": "81",
+        "name": "Ingwer mit Ingwerwurzeln",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "13",
+        "menuNumber": "82",
+        "name": "Irish Cream (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 5.4,
+        "price_250g": 13.5,
+        "type": "",
+        "description": "Typisch irisch Whiskey-Aroma mit einem Hauch Kakao"
+    },
+    {
+        "key": "14",
+        "menuNumber": "79",
+        "name": "Johannisbeere mit Blättern",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Gewürznelken, Orangenschalen, Ingwerstücke und Zimtsterne"
+    },
+    {
+        "key": "15",
+        "menuNumber": "80",
+        "name": "Kokos mit Kokosraspeln",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "16",
+        "menuNumber": "84",
+        "name": "Lemon mit Schalenstücken",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "17",
+        "menuNumber": "69",
+        "name": "Mainzer Mischung",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "18",
+        "menuNumber": "87",
+        "name": "Mandel mit Mandelstücken",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Kirsch-Sahne, Korinthen, Hibiskus, Hagebuttenschalen"
+    },
+    {
+        "key": "19",
+        "menuNumber": "85",
+        "name": "Mango",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit Ringelblumenblüten, herrlicher Geschmack"
+    },
+    {
+        "key": "20",
+        "menuNumber": "56",
+        "name": "Mönchlein Tee",
+        "price_50g": 2.95,
+        "price_100g": 5.4,
+        "price_250g": 13.25,
+        "type": "",
+        "description": "Ein schwarzer und grüner Tee mit Japan Kirsch-Rosen Geschmack"
+    },
+    {
+        "key": "21",
+        "menuNumber": "110",
+        "name": "Naranquilla",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Kleine. Spanische Blutorange mit Saflorblüten"
+    },
+    {
+        "key": "22",
+        "menuNumber": "63",
+        "name": "Nizza-Sahne (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 5.6,
+        "price_250g": 13.75,
+        "type": "",
+        "description": "Kornblumen-, Färberdistelblüten"
+    },
+    {
+        "key": "23",
+        "menuNumber": "91",
+        "name": "Ostertee",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit Sonnenblumen-u. Hibiskusblüten, blaue Malve"
+    },
+    {
+        "key": "24",
+        "menuNumber": "92",
+        "name": "Passionfrucht",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit Klatschmohnblüten und dem Aroma der Maracuja"
+    },
+    {
+        "key": "25",
+        "menuNumber": "89",
+        "name": "Pfirsich mit Sonnenblumenblüten",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "26",
+        "menuNumber": "90",
+        "name": "Pflaumen",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "27",
+        "menuNumber": "59",
+        "name": "Rose",
+        "price_50g": 3,
+        "price_100g": 5.5,
+        "price_250g": 13,
+        "type": "",
+        "description": "Ein schwarzer Tee mit Rosenblüten, Aroma"
+    },
+    {
+        "key": "28",
+        "menuNumber": "98",
+        "name": "Sahne Karamel",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit Karamellstücken, weicher, feiner, Karamellgeschmack"
+    },
+    {
+        "key": "29",
+        "menuNumber": "109",
+        "name": "Samba Pa Tea",
+        "price_50g": 2.95,
+        "price_100g": 5.4,
+        "price_250g": 13.25,
+        "type": "",
+        "description": "Sonnenblumenblüten mit Kaktusblüten und, früchtig"
+    },
+    {
+        "key": "30",
+        "menuNumber": "100",
+        "name": "Orange Spice Imperial",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Gewürztee mit Nelken, Zimt, Vanille, abgerundet mit Orange und Schalen"
+    },
+    {
+        "key": "31",
+        "menuNumber": "101",
+        "name": "Sweet Orange mit Schalenstücken",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "32",
+        "menuNumber": "120",
+        "name": "Tropfenfeuer mit Pfingstrosenblüten",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "33",
+        "menuNumber": "130",
+        "name": "Tropic Spezial (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 5.6,
+        "price_250g": 13.75,
+        "type": "",
+        "description": "Der exklusive, feine Geschmack e Lulofrucht - zwischen Erdbeere und Ananas"
+    },
+    {
+        "key": "34",
+        "menuNumber": "103",
+        "name": "Vanille mit Vanillestücken",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "35",
+        "menuNumber": "66",
+        "name": "Waldbeere",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Heidelbeer-Erdbeere-Himbeere Geschmack; mit Holunderbeeren, Brombeerblätter, Aroma"
+    },
+    {
+        "key": "36",
+        "menuNumber": "123",
+        "name": "Weihnachtstee",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Zimt, Vanille, Ingwer, Lemone, Nelken, Naturrum, Manderinen, Orangen, Orangenschalen"
+    },
+    {
+        "key": "37",
+        "menuNumber": "74",
+        "name": "White Star",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": "Mit Kokosraspeln, Pfingstrosenblüten und Vanilleschoten"
+    },
+    {
+        "key": "38",
+        "menuNumber": "113",
+        "name": "Wintermärchen (Ronnefeldt)",
+        "price_50g": "",
+        "price_100g": 5.6,
+        "price_250g": 13.75,
+        "type": "",
+        "description": ""
+    },
+    {
+        "key": "39",
+        "menuNumber": "105",
+        "name": "Wildkirsch",
+        "price_50g": 2.85,
+        "price_100g": 5.2,
+        "price_250g": 12.75,
+        "type": "",
+        "description": "Rosenblüten, Gewürze und Orangenschalen"
+    },
+    {
+        "key": "40",
+        "menuNumber": "77",
+        "name": "Zaubervogel",
+        "price_50g": 2.85,
+        "price_100g": 5.2,
+        "price_250g": 12.75,
+        "type": "",
+        "description": "Korinthen, Mangostücke, Papaya, Rosenblüten, Kornblumenblüten"
+    },
+    {
+        "key": "41",
+        "menuNumber": "106",
+        "name": "Zimt mit Zimtrinde",
+        "price_50g": 2.8,
+        "price_100g": 5.1,
+        "price_250g": 12.5,
+        "type": "",
+        "description": ""
+    }
+]

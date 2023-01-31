@@ -9,6 +9,14 @@ const Contact = () => {
 
   const { t } = useTranslation();
 
+  let messageFlag = false;
+  let messageMargin = 0;
+
+  const storeHoursMessageDate = new Date('2023-02-23');
+  const todayDate = new Date();
+  messageFlag = (storeHoursMessageDate > todayDate) ? true : false;
+  messageMargin = (storeHoursMessageDate > todayDate) ? 0 : 5;
+
   return (
     <div>
       <Menu />
@@ -25,8 +33,10 @@ const Contact = () => {
                 <p className="m-0 fw-bold">{t("Address")}:</p>
                 <p className="m-0">Christofsstr. 11,AM Karmeliterplatz 55116 Mainz</p>
                 <p className="m-0 fw-bold">{t("Phone")}/Fax:</p>
-                <p className="m-0">{t("companyPhoneNumber")}</p>
-                <p className="mt-2 fw-bold text-center text-success">Liebe Tee Freunde. Das Geschäft ist von<br />15.02.2023 bis 22.02.2023 geschlossen.</p>
+                <p className={`mt-0 ml-0 mr-0 mb-${messageMargin}`}>{t("companyPhoneNumber")}</p>
+                { messageFlag &&
+                  <p className="mt-2 fw-bold text-center text-success">Liebe Tee Freunde. Das Geschäft ist von<br />15.02.2023 bis 22.02.2023 geschlossen.</p>
+                }
               </Card.Text>
               
               <Table size="sm" className="m-0">
