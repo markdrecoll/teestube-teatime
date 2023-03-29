@@ -62,10 +62,10 @@ const Kräutermischungen = () => {
     const [currentColumns, setCurrentColumns] = useState(columnsFirstPage);
 
     const onPageChange = (page) => {       
-        if(page.current == 1){
+        if(page.current === 1){
             setCurrentColumns(columnsFirstPage);
         }
-        if(page.current == 2){
+        if(page.current === 2){
             setCurrentColumns(columnsSecondPage);
         }
     };

@@ -12,7 +12,7 @@ const Contact = () => {
   let messageFlag = false;
   let messageMargin = 0;
 
-  const storeHoursMessageDate = new Date('2023-02-23');
+  const storeHoursMessageDate = new Date('2023-04-13');
   const todayDate = new Date();
   messageFlag = (storeHoursMessageDate > todayDate) ? true : false;
   messageMargin = (storeHoursMessageDate > todayDate) ? 0 : 5;
@@ -35,7 +35,7 @@ const Contact = () => {
                 <p className="m-0 fw-bold">{t("Phone")}/Fax:</p>
                 <p className={`mt-0 ml-0 mr-0 mb-${messageMargin}`}>{t("companyPhoneNumber")}</p>
                 { messageFlag &&
-                  <p className="mt-2 fw-bold text-center text-success">Liebe Tee Freunde. Das Geschäft ist von<br />15.02.2023 bis 22.02.2023 geschlossen.</p>
+                  <p className="mt-2 fw-bold text-center text-success">Liebe Tee Freunde. Das Geschäft ist von<br />04.04.2023 bis 13.04.2023 geschlossen.</p>
                 }
               </Card.Text>
               
