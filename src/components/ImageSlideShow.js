@@ -14,7 +14,14 @@ function ImageSlideShow() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h2 className="color-white">Willkommen in der Mainz<br />Teestube Teatime</h2>
+          <h2 className="color-white">
+            Liebe Kunden, 
+            aufgrund von Renovierungsarbeiten schließt das Geschäft zum 31.07.2023.
+            Wir sind ab dem 15.09.2023 wieder für Sie da.
+            Vielen Dank für Ihr Verständnis.
+            Ihre Teestube Teatime
+          </h2>
+          {/* <h2 className="color-white">Willkommen in der Mainz<br />Teestube Teatime</h2> */}
           {/* <p>{t("You could have additional sample text here")}</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -25,7 +32,14 @@ function ImageSlideShow() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h2 className="color-white">5% Rabatt jeden ersten Montag im Monat</h2>
+          <h2 className="color-white">
+            Liebe Kunden, 
+            aufgrund von Renovierungsarbeiten schließt das Geschäft zum 31.07.2023.
+            Wir sind ab dem 15.09.2023 wieder für Sie da.
+            Vielen Dank für Ihr Verständnis.
+            Ihre Teestube Teatime
+          </h2>
+          {/* <h2 className="color-white">5% Rabatt jeden ersten Montag im Monat</h2> */}
           {/* <p>{t("You could have additional sample text here")}</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -35,10 +49,17 @@ function ImageSlideShow() {
           src={process.env.PUBLIC_URL + "/assets/images/facebook_photos/teestube_facebook_photos(8).jpg"}
           alt="Second slide"
         />
-        {/* <Carousel.Caption>
-          <h3>{t("Sample Text")}</h3>
-          <p>{t("You could have additional sample text here")}</p>
-        </Carousel.Caption> */}
+        <Carousel.Caption>
+          <h2 className="color-white">
+            Liebe Kunden, 
+            aufgrund von Renovierungsarbeiten schließt das Geschäft zum 31.07.2023.
+            Wir sind ab dem 15.09.2023 wieder für Sie da.
+            Vielen Dank für Ihr Verständnis.
+            Ihre Teestube Teatime
+          </h2>
+          {/* <h2 className="color-white">Willkommen in der Mainz<br />Teestube Teatime</h2> */}
+          {/* <p>{t("You could have additional sample text here")}</p> */}
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
