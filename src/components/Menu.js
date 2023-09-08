@@ -11,7 +11,7 @@ function Menu() {
 	return (
 		<Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
 			<Container>
-				<Navbar.Brand href="/">
+				<Navbar.Brand href="#/">
 					<img
 						alt="Teestube-Teatime"
 						src={process.env.PUBLIC_URL + "/assets/images/logo_original.png"}
@@ -26,21 +26,21 @@ function Menu() {
 					<Nav className="me-auto">
 					</Nav>
 					<Nav>
-						<Nav.Link href="/">{t("Home")}</Nav.Link>
+						<Nav.Link href="#/">{t("Home")}</Nav.Link>
 						<NavDropdown title={t("Tea Menu")}>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/black_tea">{t("Black Tea")}</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/green_tea">{t("Green Tea")}</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/aromatic_blacktea">Aromatisierter Schwarztee</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/aromatic_greentea">Aromatisierter Grüntee</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/fruit_tea">{t("Fruit Tea")}</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/rooibusch_honeybusch">Rooibuschtee & Honeybusch Südafrika</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/krautermischungen">Kräutermischungen</NavDropdown.Item>
-							<NavDropdown.Item style={{ fontSize: `80%` }} href="/spice_and_chai_tea">{t("Spice & Chai Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/black_tea">{t("Black Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/green_tea">{t("Green Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/aromatic_blacktea">Aromatisierter Schwarztee</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/aromatic_greentea">Aromatisierter Grüntee</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/fruit_tea">{t("Fruit Tea")}</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/rooibusch_honeybusch">Rooibuschtee & Honeybusch Südafrika</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/krautermischungen">Kräutermischungen</NavDropdown.Item>
+							<NavDropdown.Item style={{ fontSize: `80%` }} href="#/spice_and_chai_tea">{t("Spice & Chai Tea")}</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link href="/about">{t("About Us")}</Nav.Link>
-						<Nav.Link href="/gallery">{t("Gallery")}</Nav.Link>
-						<Nav.Link href="/contact">{t("Contact")}</Nav.Link>
-						<Nav.Link href="/datenschutz">Datenschutz</Nav.Link>
+						<Nav.Link href="#/about">{t("About Us")}</Nav.Link>
+						<Nav.Link href="#/gallery">{t("Gallery")}</Nav.Link>
+						<Nav.Link href="#/contact">{t("Contact")}</Nav.Link>
+						<Nav.Link href="#/datenschutz">Datenschutz</Nav.Link>
 						{i18n.resolvedLanguage === 'de' &&
 							<NavDropdown title="Sprache">
 								<NavDropdown.Item onClick={() => i18n.changeLanguage('de')}>Deutsch</NavDropdown.Item>

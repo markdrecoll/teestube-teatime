@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import { Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -20,7 +20,7 @@ import SpiceAndChaiTea from './pages/TeaVarieties/SpiceAndChaiTea';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -36,7 +36,7 @@ function App() {
         <Route path="/krautermischungen" element={<Kräutermischungen />} />
         <Route path="/spice_and_chai_tea" element={<SpiceAndChaiTea />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
