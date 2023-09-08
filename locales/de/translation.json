@@ -1,0 +1,61 @@
+{
+    "10:00 AM": "10:00",
+    "1:00 PM": "13:00",
+    "4:00 PM": "16:00",
+    "5:00 PM": "17:00",
+    "6:00 PM": "18:00",
+    "6:30 PM": "18:30",
+
+    "50 Grams": "50 Gramm",
+    "100 Grams": "100 Gramm",
+    "250 Grams": "250 Gramm",
+  
+    "About Us": "Über Uns",
+    "Address": "Adresse",
+
+    "Black Tea": "Schwarztee",
+
+    "Closed": "Geschlossen",
+    "companyPhoneNumber": "06131-223604",
+    "Contact": "Kontakt",
+
+    "Description": "Bezeichnung",
+
+    "English": "Englisch",
+    
+    "Fruit Tea": "Früchte-Tee",
+    "Friday": "Freitag",
+
+    "Gallery": "Galerie",
+    "German": "Deutsch",
+    "Green Tea": "GrünTee",
+
+    "Home": "Home",
+    "Hours of Operation": "Öffnungszeiten",
+
+    "Language": "Sprache",
+
+    "Monday": "Montag",
+
+    "Name": "Name",
+
+    "Phone": "Telefon",
+
+    "Reset": "Zurücksetzen",  
+
+    "Sample Text":"Beispieltext",
+    "Saturday": "Samstag",
+    "Search": "Suche",
+    "Spice & Chai Tea": "Gewürz & Chai Tee",
+    "Sunday": "Sonntag",
+
+    "Tea Menu": "Tee Menü",
+    "Temporarily Closed": "Vorübergehend Geschlossen",
+    "Thursday": "Donnerstag",
+    "Tuesday": "Dienstag",
+
+    "Wednesday": "Mittwoch",
+    "white tea": "weißtee",
+
+    "You could have additional sample text here":"Sie könnten hier zusätzlichen Beispieltext haben"
+}
