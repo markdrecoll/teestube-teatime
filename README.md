@@ -7,7 +7,7 @@
    - [Installation Tip](#InstallationTip)
    - [Questions](#Questions)
   ## Demonstration
-  Live Website: https://teestube-teatime.de/
+  Live Website: https://markdrecoll.github.io/teestube-teatime/
   ## Description
   This is a website I created for a client that has a tea store in Mainz, Germany. It is a responsive website that works on different screen sizes and mobile devices. It was developed in React, and makes use of packages such as: react-bootstrap and antd style frameworks, google-map-react to display its location, i18 internationalization for translations, and dotenv for hiding API keys.
   ## Installation
@@ -34,4 +34,4 @@
   ## Questions
   markdrecoll@gmail.com
   ## Note
-  This website is currently live. However in the event it is changed or taken down I will be hosting this via github pages. Github pages does not support browser routing and will use hashrouting instead.
+  The tea shop has since closed. So this website has moved from live to an archived github pages website. As a result, a hash router was needed instead of a browser router.
