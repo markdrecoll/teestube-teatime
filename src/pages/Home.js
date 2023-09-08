@@ -11,6 +11,11 @@ const Home = () => {
       <div>
         <Menu />
         <ImageSlideShow />
+        {/* <img
+          className="d-block w-100"
+          src={process.env.PUBLIC_URL + "/assets/images/under_construction.jpg"}
+          alt="Under Construction"
+        /> */}
       </div>
     );
   };
