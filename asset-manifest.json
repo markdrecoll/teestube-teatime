@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/teestube-teatime/static/css/main.1d641f3c.css",
-    "main.js": "/teestube-teatime/static/js/main.2cd975df.js",
+    "main.js": "/teestube-teatime/static/js/main.592eee03.js",
     "static/js/787.a86de92c.chunk.js": "/teestube-teatime/static/js/787.a86de92c.chunk.js",
     "index.html": "/teestube-teatime/index.html",
     "static/media/getFetch.cjs": "/teestube-teatime/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.1d641f3c.css.map": "/teestube-teatime/static/css/main.1d641f3c.css.map",
-    "main.2cd975df.js.map": "/teestube-teatime/static/js/main.2cd975df.js.map",
+    "main.592eee03.js.map": "/teestube-teatime/static/js/main.592eee03.js.map",
     "787.a86de92c.chunk.js.map": "/teestube-teatime/static/js/787.a86de92c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d641f3c.css",
-    "static/js/main.2cd975df.js"
+    "static/js/main.592eee03.js"
   ]
 }
