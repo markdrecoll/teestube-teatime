@@ -33,3 +33,5 @@
   This project was created by: [Mark Drecoll](https://markdrecoll.com)
   ## Questions
   markdrecoll@gmail.com
+  ## Note
+  This website is currently live. However in the event it is changed or taken down I will be hosting this via github pages. Github pages does not support browser routing and will use hashrouting instead.
