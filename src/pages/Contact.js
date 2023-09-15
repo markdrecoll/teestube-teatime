@@ -9,7 +9,7 @@ const Contact = () => {
 
   const { t } = useTranslation();
 
-  let messageFlag = true;
+  let messageFlag = false;
   let messageMargin = 0;
 
   const storeHoursMessageDate = new Date('2023-04-13');
@@ -22,7 +22,7 @@ const Contact = () => {
       <Menu />
       <div className="row justify-content-md-center m-4">
         <div className="col-lg-5 col-md-6 col-12">
-          <Card style={{ height: '36rem' }}>
+          <Card style={{ height: '32rem' }}>
             <Card.Body>
               <Card.Title>Teestube</Card.Title>
               <Card.Text>
@@ -51,36 +51,37 @@ const Contact = () => {
                 <tbody>
                   <tr>
                     <td>{t("Monday")}</td>
-                    {/* <td>{t("10:00 AM")}</td> */}
-                    {/* <td>{t("5:00 PM")}</td> */}
+                    <td>{t("10:00 AM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Tuesday")}</td>
-                    {/* <td>{t("10:00 AM")}</td> */}
-                    {/* <td>{t("5:00 PM")}</td> */}
+                    <td>{t("10:00 AM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Wednesday")}</td>
-                    <td colSpan={2}>{t("Temporarily Closed")}</td>
+                    <td>{t("10:00 AM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Thursday")}</td>
-                    {/* <td>{t("10:00 AM")}</td> */}
-                    {/* <td>{t("5:00 PM")}</td> */}
+                    <td>{t("10:00 AM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Friday")}</td>
-                    {/* <td>{t("10:00 AM")}</td> */}
-                    {/* <td>{t("5:00 PM")}</td> */}
+                    <td>{t("10:00 AM")}</td>
+                    <td>{t("5:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Saturday")}</td>
-                    {/* <td>{t("10:00 AM")}</td> */}
-                    {/* <td>{t("4:00 PM")}</td> */}
+                    <td>{t("10:00 AM")}</td>
+                    <td>{t("4:00 PM")}</td>
                   </tr>
                   <tr>
                     <td>{t("Sunday")}</td>
-                    {/* <td colSpan={2}>{t("Closed")}</td> */}
+                    <td colSpan={2}>{t("Closed")}</td>
                   </tr>
                 </tbody>
               </Table>
@@ -88,7 +89,7 @@ const Contact = () => {
           </Card>
         </div>
         <div className="col-lg-5 col-md-6 col-12">
-          <Card style={{ height: '36rem' }}>
+          <Card style={{ height: '32rem' }}>
             <Card.Body>
               <MapDisplay />
             </Card.Body>
