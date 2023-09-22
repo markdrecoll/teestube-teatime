@@ -21,7 +21,7 @@ function ImageSlideShow() {
             Vielen Dank für Ihr Verständnis.
             Ihre Teestube Teatime
           </h2> */}
-          <h2 className="color-white">Willkommen in der Mainz<br />Teestube Teatime</h2>
+          <h2 className="color-white">{t("Welcome to Mainz")}<br />Teestube Teatime</h2>
           {/* <p>{t("You could have additional sample text here")}</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,7 +39,7 @@ function ImageSlideShow() {
             Vielen Dank für Ihr Verständnis.
             Ihre Teestube Teatime
           </h2> */}
-          <h2 className="color-white">5% Rabatt jeden ersten Montag im Monat</h2>
+          <h2 className="color-white">{t("5% Discount every first Monday of the month")}</h2>
           {/* <p>{t("You could have additional sample text here")}</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -57,7 +57,7 @@ function ImageSlideShow() {
             Vielen Dank für Ihr Verständnis.
             Ihre Teestube Teatime
           </h2> */}
-          <h2 className="color-white">Willkommen in der Mainz<br />Teestube Teatime</h2>
+          <h2 className="color-white">{t("Welcome to Mainz")}<br />Teestube Teatime</h2>
           {/* <p>{t("You could have additional sample text here")}</p> */}
         </Carousel.Caption>
       </Carousel.Item>
