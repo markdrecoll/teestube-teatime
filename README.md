@@ -7,7 +7,7 @@
    - [Installation Tip](#InstallationTip)
    - [Questions](#Questions)
   ## Demonstration
-  Live Website: https://markdrecoll.github.io/teestube-teatime/
+  Live Website: https://teestube-teatime.markdrecoll.com/
   ## Description
   This is a website I created for a client that has a tea store in Mainz, Germany. It is a responsive website that works on different screen sizes and mobile devices. It was developed in React, and makes use of packages such as: react-bootstrap and antd style frameworks, google-map-react to display its location, i18 internationalization for translations, and dotenv for hiding API keys.
   ## Installation

@@ -3,11 +3,4 @@ change homepage in package
 translation button should cause table to rerender with translations
 routing translations
 proper documentation
-
-Questions:
-Ask about initial zoom of map
-For menu numbers: Some are 20.1 others 35/1
-keep price sorting?
-language change button location?
-footer? maybe have language/datenshutz/established 1981
 website description meta data
